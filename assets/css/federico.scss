@@ -1,0 +1,124 @@
+$blu:#375D81;
+$grigio:#909399;
+$grigioscuro: #696969;
+$bianco: white;
+
+.text-right {
+    text-align: right !important;
+}
+.pagine_fondi {
+    font-family: 'Open Sans';
+
+    h1 {
+        text-transform: none;
+        letter-spacing: 0;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        text-align: left;
+        color: $grigioscuro;
+
+        a {
+            color: $blu;
+        }
+    }
+
+    .background_pattern_result {
+        background-image: url('../img/background-visual-header.jpg');
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 12px;
+        padding-top: 5px;
+
+        h1 {
+            font-family: 'Open Sans';
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 600;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: $bianco;
+        }
+
+        ul.breadcrumb-list.bread-white {
+            li {
+                a {
+                    color: $bianco;
+                }
+            }
+        }
+
+        .breadcrumb-list {
+            li {
+                a {
+                    font-family: 'Open Sans';
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    p.search_box {
+        color: $blu;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .input_shadow {
+        border-radius: 24px;
+        border: 1px solid transparent;
+        background-color: $bianco;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, .25);
+    }
+
+    input[type="text"] {
+        border: 0;
+        border-radius: 24px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 5px 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn_isin_cerca {
+        color: $bianco;
+        cursor: pointer;
+        background-color: $grigio;
+        border-radius: 24px;
+        font-size: 15px;
+        font-weight: 600;
+        display: block;
+        max-width: 100px;
+        padding: 5px 13px;
+        width: 100%;
+    }
+
+    b.note_title {
+        color: $blu;
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+    }
+
+    .display_before {
+        color: $blu;
+        font-size: 14px;
+    }
+
+    .analysis_logo img {
+        width: 90px;
+        vertical-align: -6px;
+    }
+
+    #display_switch {
+        color: $blu;
+        cursor: pointer;
+        font-weight: 600;
+    }
+}
