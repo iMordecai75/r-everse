@@ -1,16 +1,13 @@
 <?php 
-//error_reporting(0);
-include './classes/entity.php';
-include './classes/dbo.php';
-include './classes/reader.php';
-include './classes/entry.php';
-include './classes/file.php';
-include './models/file.php';
-include './models/entry.php';
-include './views/view.php';
+error_reporting(ALL);
+require_once './classes/entity.php';
+require_once './classes/dbo.php';
+require_once './classes/anagraficaTitoli.php';
+require_once './models/anagraficaTitoli.php';
+require_once './views/view.php';
 
-//$filename = 'data/CONTAQ_OUTBOUND_33_20201026.csv';
-
+use fm\classes;
+/*
 try {
     $error = array();
     $dir = './data';
@@ -42,4 +39,14 @@ try {
 } catch (Exception $th) {
     die($th->getMessage());
 }
+*/
 
+try {
+    $error = array();
+    $model = new AnagraficaTitoliModel();
+    $items = $model->getItems();
+    echo '<pre>' . print_r($items, true) . '</pre>';
+} catch (\Throwable $th) {
+    //throw $th;
+    echo $th->getMessage();
+}

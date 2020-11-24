@@ -1,11 +1,15 @@
 $blu:#375D81;
+$blu2: #183152;
 $grigio:#909399;
+$grigio2: #c7c3c2;
+$grigiochiaro: #f1f1f1;
 $grigioscuro: #696969;
 $bianco: white;
 
 .text-right {
     text-align: right !important;
 }
+
 .pagine_fondi {
     font-family: 'Open Sans';
 
@@ -120,5 +124,135 @@ $bianco: white;
         color: $blu;
         cursor: pointer;
         font-weight: 600;
+    }
+
+    .table_fonds_mc {
+        width: 100%;
+
+        .nobg {
+            background-color: $bianco;
+
+            &.rendimenti_txt {
+                background-color: #fff;
+                color: #375D81;
+
+            }
+        }
+
+        thead {
+            tr {
+                td {
+                    background-color: #3071a9;
+                    color: #fff;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 13px;
+                    padding: 5px;
+                    // text-align: center;
+                    text-transform: none;
+                    vertical-align: middle;
+
+                    &.rendimenti_txt {
+                        text-align: center;
+                        width: 80px
+                    }
+
+                    &.link_scheda {
+                        width: 140px;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                &.singolo_fondo {
+                    td {
+                        border-bottom: 1px solid $grigiochiaro;
+                        font-size: 12px;
+                        height: 40px;
+                        line-height: 13px;
+                        padding: 5px;
+                        vertical-align: middle;
+
+                        span {
+                            display: block;
+                            font-size: 10px;
+                        }
+
+                        a {
+                            color: $blu;
+                            font-weight: 600;
+                        }
+
+                        &.number_ref {
+                            width: 38px;
+                            color: #375D81;
+                        }
+
+                        &.nome_fondo {
+                            min-width: 255px;
+
+                            span {
+                                &.categoria {
+                                    color: $blu2;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+
+                        &.btn_add_portfolio {
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            vertical-align: middle;
+                            width: 40px;
+
+                            span {
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                cursor: pointer;
+                                height: 20px;
+                                margin: 0 auto;
+                                width: 20px;
+
+                                &.to_add {
+                                    background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_add_.png');
+                                }
+                            }
+                        }
+
+                        &.rendimento {
+                            width: 90px;
+
+                            span {
+                                &.posinchart {
+                                    color: $blu;
+                                    font-weight: 600;
+                                    margin-top: 2px;
+                                }
+                            }
+                        }
+
+                        &.order {
+                            background-color: #D2D7DB;
+                        }
+
+                        &.scheda {
+                            min-width: 100px;
+                        }
+                    }
+
+                    &:nth-child(2n+1) {
+                        background-color: $grigiochiaro;
+                    }
+
+                    &:nth-child(2n) {
+                        background-color: $grigio2;
+                    }
+                }
+            }
+        }
+
     }
 }

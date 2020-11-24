@@ -1,4 +1,5 @@
 <?php 
+namespace fm\classes;
 
 class DBO {
 
@@ -18,7 +19,7 @@ class DBO {
     }
 
     function __construct() {        
-        $this->dbo = new PDO ("mysql:host = $this->host;dbname=$this->dbname", $this->user, $this->pass);
+        $this->dbo = new \PDO ("mysql:host = $this->host;dbname=$this->dbname", $this->user, $this->pass);
     }
 
     public function prepare($sql) {

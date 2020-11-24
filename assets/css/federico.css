@@ -78,5 +78,76 @@
     color: #375D81;
     cursor: pointer;
     font-weight: 600; }
+  .pagine_fondi .table_fonds_mc {
+    width: 100%; }
+    .pagine_fondi .table_fonds_mc .nobg {
+      background-color: white; }
+      .pagine_fondi .table_fonds_mc .nobg.rendimenti_txt {
+        background-color: #fff;
+        color: #375D81; }
+    .pagine_fondi .table_fonds_mc thead tr td {
+      background-color: #3071a9;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 13px;
+      padding: 5px;
+      text-transform: none;
+      vertical-align: middle; }
+      .pagine_fondi .table_fonds_mc thead tr td.rendimenti_txt {
+        text-align: center;
+        width: 80px; }
+      .pagine_fondi .table_fonds_mc thead tr td.link_scheda {
+        width: 140px; }
+    .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td {
+      border-bottom: 1px solid #f1f1f1;
+      font-size: 12px;
+      height: 40px;
+      line-height: 13px;
+      padding: 5px;
+      vertical-align: middle; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td span {
+        display: block;
+        font-size: 10px; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td a {
+        color: #375D81;
+        font-weight: 600; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.number_ref {
+        width: 38px;
+        color: #375D81; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.nome_fondo {
+        min-width: 255px; }
+        .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.nome_fondo span.categoria {
+          color: #183152;
+          font-style: italic; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio {
+        padding-left: 0px;
+        padding-right: 0px;
+        vertical-align: middle;
+        width: 40px; }
+        .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          cursor: pointer;
+          height: 20px;
+          margin: 0 auto;
+          width: 20px; }
+          .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span.to_add {
+            background-image: url("https://www.moneycontroller.it/calcolatore/img/icona_add_.png"); }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.rendimento {
+        width: 90px; }
+        .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.rendimento span.posinchart {
+          color: #375D81;
+          font-weight: 600;
+          margin-top: 2px; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.order {
+        background-color: #D2D7DB; }
+      .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.scheda {
+        min-width: 100px; }
+    .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo:nth-child(2n+1) {
+      background-color: #f1f1f1; }
+    .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo:nth-child(2n) {
+      background-color: #c7c3c2; }
 
 /*# sourceMappingURL=federico.css.map */
