@@ -1,0 +1,259 @@
+/*RESET CONTAINER*/
+@media (min-width: 1200px){.container {max-width: 1140px; }}
+
+.row.align-items-center{display: flex; align-items: center;}
+
+.mt0{margin-top: 0px}
+.mt5{margin-top: 5px}
+.mt10{margin-top: 10px}
+.mt15{margin-top: 15px}
+.mt20{margin-top: 20px}
+.mt30{margin-top: 30px}
+.mt40{margin-top: 40px}
+.mt50{margin-top: 50px}
+.mt60{margin-top: 60px}
+.mt70{margin-top: 70px}
+.mt80{margin-top: 80px}
+.mt90{margin-top: 90px}
+.mt100{margin-top: 100px}
+.mb0{margin-bottom: 0px}
+.mb10{margin-bottom: 10px}
+.mb15{margin-bottom: 15px}
+.mb20{margin-bottom: 20px}
+.mb30{margin-bottom: 30px}
+.mb40{margin-bottom: 40px}
+.mb50{margin-bottom: 50px}
+.mb60{margin-bottom: 60px}
+.mb70{margin-bottom: 70px}
+.mb100{margin-bottom: 100px}
+.text-center{text-align: center !important}
+
+.moneycontroller-eu .display-mobile{display: none}
+.moneycontroller-eu .display-pc{display: block}
+.moneycontroller-eu .scrol{position: fixed}
+.header_placeholder{height: 82px; display: none;}
+
+.moneycontroller-eu header{background-color: #E0E4E8; padding-top: 0px; padding-bottom: 0px; position: relative}
+.moneycontroller-eu .header_nav{padding-top: 8px; padding-bottom: 8px; /*background-color: #DFE4E9*/}
+.moneycontroller-eu .header_nav .col-lg-2{padding-right: 0px}
+.moneycontroller-eu .header_nav .col-lg-7{padding-right: 0px; padding-left: 37px}
+.moneycontroller-eu .header_nav .logo img{width: 100%;}
+.moneycontroller-eu .header_nav ul {display: block; margin: 0 auto; list-style-type: none; text-align: center;}
+.moneycontroller-eu .header_nav ul li{display: inline; padding-left: 14px; padding-right: 14px; }
+.moneycontroller-eu .header_nav ul li:first-child{padding-left: 0px;}
+.moneycontroller-eu .header_nav ul li:last-child{padding-right: 0px;}
+.moneycontroller-eu .header_nav ul li a{font-family: 'Open Sans'; color: #375D81; font-size: 13px; line-height: 15px; font-weight: 600}
+.moneycontroller-eu .header_nav ul li a:hover{text-decoration: underline}
+.moneycontroller-eu .header_nav .icon_list{padding-right: 15px;}
+.moneycontroller-eu .header_nav .icon_list ul{display: block; margin: 0 auto; float: right; list-style-type: none; text-align: center;}
+.moneycontroller-eu .header_nav .icon_list ul li{padding-left: 10px; display: inline-block; text-align: center; padding-right: 10px;}
+.moneycontroller-eu .header_nav .icon_list ul li a{font-size: 11px; cursor: pointer; display: block; line-height: 16px;}
+.moneycontroller-eu .header_nav .icon_list ul li a img{margin-bottom: 10px; margin-top: 5px;}
+.moneycontroller-eu .header_nav .icon_list ul li a.logged{font-weight: 700; text-transform: uppercase}
+.moneycontroller-eu .header_nav .icon_list ul li:first-child{padding-left: 0px;}
+.moneycontroller-eu .header_nav .icon_list ul li:last-child{padding-right: 0px;}
+.moneycontroller-eu .header_nav .icon_list ul li img{width: 28px; display: block; margin: 0 auto;}
+.moneycontroller-eu .header_nav .icon_list ul li i{color: #375D81; font-size: 30px; vertical-align: 11px; cursor: pointer}
+.moneycontroller-eu .header_nav .icon_list ul li i.active{color: #fff;}
+
+.moneycontroller-eu .header_nav .icon_list .circle_track{font-family: 'Open Sans'; font-size: 12px; font-weight: 700; position: absolute; right: 15px; background-color: #628ECA; color: #fff; border:1px solid #35744E; top:-2px; width: 22px; height: 22px; padding-top: 4px; border-radius: 90px}
+
+.moneycontroller-eu .submenu_large{width: calc(100% - 30px); height: 100vh; max-height: 484px; display: none; position: absolute; box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1); padding: 15px; font-family: 'Open Sans'; background-color: #a4badd; }
+.moneycontroller-eu .submenu_large div{width: 20%; min-height: 250px}
+.moneycontroller-eu .submenu_large h5{font-weight: 600; letter-spacing: -1px; font-size: 18px; color: #375D81; margin-bottom: 10px;}
+.moneycontroller-eu .submenu_large p{font-size: 13px; color: #fff; font-style: italic; margin-bottom: 5px}
+.moneycontroller-eu .submenu_large ul{list-style-type: none; margin: 0px; padding: 0px; margin-bottom: 20px}
+.moneycontroller-eu .submenu_large ul li{font-size: 13px; line-height: 20px; margin-bottom: 10px}
+.moneycontroller-eu .submenu_large ul li a{color: #fff; display: block}
+.moneycontroller-eu .submenu_large .btn_menu{ margin-top: 10px; font-weight: 600; color: #fff; text-align: center; border-radius: 8px; font-size: 10px; padding: 8px; display: block; margin-bottom: 20px;}
+.moneycontroller-eu .submenu_large .btn_menu.btn_newsletter{background-color: #666; border:2px solid #666}
+.moneycontroller-eu .submenu_large .btn_menu.btn_newsletter:hover{color: #666; background-color: #fff}
+.moneycontroller-eu .submenu_large .btn_menu.btn_offerta{background-color: #375D81; border:2px solid #375D81}
+.moneycontroller-eu .submenu_large .btn_menu.btn_offerta:hover{background-color: #fff; color: #375D81}
+
+.moneycontroller-eu .header_nav .loginform{position: absolute; display: none; top: 60px; right: 15px; padding: 15px; width: 300px; background-color: #E0E4E8}
+.moneycontroller-eu .header_nav .loginform span.title {font-family: 'Open Sans'; text-align: center; font-weight: 600; margin: 0px; padding: 0px; margin-bottom: 5px; color: #375D81; font-size: 16px; display: block;}
+.moneycontroller-eu .header_nav .loginform span.btn_login {font-family: 'Open Sans'; font-weight: 600; cursor: pointer; color: #fff; background-color: #375D81; border:2px solid #375D81; border-radius: 24px; text-align: center; padding: 2px; font-size: 16px; display: block;}
+.moneycontroller-eu .header_nav .loginform span.btn_login:hover {color: #375D81; background-color: #fff;}
+.moneycontroller-eu .header_nav .loginform input{font-family: 'Open Sans'; border: 1px solid #fff; font-weight: 400; color: #fff; margin-bottom: 10px; background-color: #fff; width: 100%; border-radius: 24px; padding: 5px; padding-left: 10px; padding-right: 10px; color: #375D81; font-size: 13px; display: block;}
+.moneycontroller-eu .header_nav .loginform input.error-field{border:1px solid #CC0000}
+.moneycontroller-eu .header_nav .loginform hr{border-color: #fff; margin: 0px; margin-bottom: 10px;}
+.moneycontroller-eu .header_nav .loginform a{font-family: 'Open Sans'; font-weight: 400; color: #375D81; margin-bottom: 10px; width: 100%; padding: 5px; text-align: center; font-size: 14px; display: block;}
+.moneycontroller-eu .header_nav .loginform a:hover{text-decoration: underline}
+.moneycontroller-eu .header_nav .loginform a:last-child{font-family: 'Open Sans'; font-weight: 600; color: #375D81; width: 100%; margin-bottom: 0px; padding-bottom: 0px; text-align: center; font-size: 16px; display: block;}
+
+.moneycontroller-eu .page_homepage {margin-top: 15px}
+.moneycontroller-eu .page_homepage h1{color: #666; font-weight: 600; margin-top: 0px; margin-bottom: 15px; font-family: 'Open Sans'; text-transform: none; letter-spacing: 0px; text-align: center; font-size: 27px; line-height: 38px}
+.moneycontroller-eu .page_homepage h2{color: #666; font-weight: 600; margin-top: 0px; margin-bottom: 20px; font-family: 'Open Sans'; text-transform: none; letter-spacing: 0px; text-align: left; font-size: 30px; line-height: 35px; margin-bottom: 10px;}
+.moneycontroller-eu .page_homepage h3{color: #666; font-weight: 600; margin-top: 0px; margin-bottom: 20px; font-family: 'Open Sans'; text-transform: none; letter-spacing: 0px; text-align: left; font-size: 18px; line-height: 25px; margin-bottom: 10px;}
+
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px) {
+    .owl-dots{display: none}
+    .moneycontroller-eu .header_nav .logo img{width: 100%; max-width: 200px !important}
+    .moneycontroller-eu .advisor_banner_premium { margin-top: 40px !important; padding-top: 50px; padding-bottom: 50px; background-size: 151%; background-repeat: no-repeat; background-position-x: -167px; background-position-y: -10px; }
+    .moneycontroller-eu .advisor_banner_premium h2 { font-size: 19px; margin-top: -15px; width: 200px; line-height: 27px;}
+    .moneycontroller-eu .advisor_banner_premium h3 { line-height: 24px; margin-bottom: 19px; font-size: 19px; width: 214px;}
+    .moneycontroller-eu .advisor_banner_premium a { font-size: 13px; padding: 8px; padding-left: 8px; padding-right: 8px;}
+    .moneycontroller-eu .quick_nav_menu{display: none}
+    .moneycontroller-eu .icon_list ul li a label{display: none}
+    .moneycontroller-eu .submenu_large{position: fixed; top: 70px; bottom: 0px; width: 100% !important; max-height: unset !important; overflow-y: auto; padding-bottom: 130px;  left: 0px; right: 0px;}
+    .moneycontroller-eu .submenu_large .btn_menu {font-size: 13px; margin-bottom: 20px }
+    .moneycontroller-eu .submenu_large div{width: 100%; min-height: unset !important;}
+    .moneycontroller-eu .submenu_large .mt65{margin-top: 30px}
+    .moneycontiroller-eu .submenu_large h5{margin-top: 30px !important}
+    .moneycontroller-eu .page_homepage h1 {font-size: 23px; line-height: 26px; }    
+} 
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px) and (orientation: portrait) {
+     .moneycontroller-eu .submenu_large ul li {font-size: 13px; line-height: 19px; margin-bottom: 4px; }
+    .moneycontroller-eu .submenu_large .btn_menu {font-size: 13px; width: 230px; }
+    
+}
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px) and (orientation: landscape) {
+    .moneycontroller-eu .submenu_large div {width: 33.3%; min-height: 193px !important;}
+    .menu_moneycontroller{margin-top: -50px;}
+    .moneycontroller-eu .submenu_large ul {margin-bottom: 10px}
+    .moneycontroller-eu .submenu_large ul li {font-size: 11px; line-height: 17px; margin-bottom: 6px;}
+    .moneycontroller-eu .submenu_large .btn_menu {font-size: 9px; margin-bottom: 10px; }
+    .moneycontroller-eu .submenu_large h5 {font-size: 16px; margin-bottom: 5px; }
+    .moneycontroller-eu .submenu_large p {font-size: 12px; margin-bottom: 0px; }
+
+    
+
+}        
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px){
+    .moneycontroller-eu .submenu_large div {width: 33%; min-height: 230px; }
+    .moneycontroller-eu .submenu_large {max-height: 700px; }
+    .menu_moneycontroller{margin-top: -65px !important;}
+    
+    .banner_ishares{display:none !important}
+    .moneycontroller-eu .quick_nav_menu{display: none}
+    .moneycontroller-eu .icon_list ul li a label{display: none}
+    .moneycontroller-eu .header_nav .logo img{width: 100%; max-width: 200px !important}
+    .moneycontroller-eu .page_homepage h1 {font-size: 22px; }
+    .moneycontroller-eu .page_homepage .box_homepage .area_text h2 {font-weight: 600; font-size: 22px; line-height: 25px; }
+    .moneycontroller-eu .page_homepage .box_homepage .area_text ul li {font-size: 13px; line-height: 19px; }
+    .moneycontroller-eu .page_homepage .box_homepage .area_text p {font-size: 15px; line-height: 16px; }
+    .scegli_chi_contattare{margin-bottom: 13px !important;}
+    .moneycontroller-eu .page_homepage .box_homepage .area_text {width: 265px; height: 380px; }
+    .moneycontroller-eu .page_homepage .box_homepage a {padding: 7px; font-size: 10px;}
+    .moneycontroller-eu .page_homepage .visual_homepage_pc {background-position-x: 0px; background-size: 80%; height: 380px;}
+    .moneycontroller-eu .page_homepage h2 {font-size: 25px;}
+    .moneycontroller-eu .page_homepage .consulentifinanziari p.payoff {font-size: 16px; }
+    .moneycontroller-eu .article_card .dettaglio {margin-left: 5px; margin-right: 5px; margin-top: 5px; }
+    .moneycontroller-eu .article_card .dettaglio h4 {font-size: 12px; height: 18px; }
+    .moneycontroller-eu .article_card .dettaglio h3 {margin-bottom: 5px; }
+    .moneycontroller-eu .article_card .dettaglio h3 a {font-size: 14px; line-height: 20px }
+    .moneycontroller-eu .article_card .dettaglio p {font-size: 12px; line-height: 18px; margin-bottom: 15px; }
+    .moneycontroller-eu .article_card .dettaglio .read_more a {font-size: 9px;}
+    .moneycontroller-eu .article_card .dettaglio .read_more.discover_more {font-size: 9px !important; }
+    .moneycontroller-eu .webinar .banner h3 {font-size: 40px; line-height: 39px; }
+    .moneycontroller-eu .webinar .banner {background-position: left center; height: 330px; }
+    .moneycontroller-eu .webinar_card .dettaglio {margin-left: 5px; margin-right: 5px; margin-top: 5px; }
+    .moneycontroller-eu .webinar_card .dettaglio h4 {font-size: 13px; margin-bottom: 5px; }
+    .moneycontroller-eu .webinar_card .dettaglio h3 {margin-bottom: 0px;  height: 38px }
+    .moneycontroller-eu .webinar_card .dettaglio h3 a {font-size: 14px; line-height: 18px; margin-bottom: 10px; }
+    .moneycontroller-eu .webinar_card .dettaglio p { font-size: 13px; line-height: 25px; margin-bottom: 5px;}
+    .moneycontroller-eu .webradio .banner h3 {font-size: 40px; line-height: 39px; }
+    .moneycontroller-eu .webradio .banner {background-position: left center; height: 330px; }
+    .moneycontroller-eu .webradio_card .dettaglio {margin-left: 5px; margin-right: 5px; margin-top: 5px; }
+    .moneycontroller-eu .webradio_card .dettaglio h4 {font-size: 13px; margin-bottom: 5px; }
+    .moneycontroller-eu .webradio_card .dettaglio h3 {margin-bottom: 0px; height: 38px }
+    .moneycontroller-eu .webradio_card .dettaglio h3 a {font-size: 14px; line-height: 18px; margin-bottom: 10px; }
+    .moneycontroller-eu .webradio_card .dettaglio p { font-size: 13px; line-height: 25px; margin-bottom: 5px;}
+    .moneycontroller-eu .page_homepage .rendimento h2 {font-size: 19px; }
+    .moneycontroller-eu .page_homepage .rendimento h3 { font-size: 13px; line-height: 21px;margin-bottom: 10px;}
+    .moneycontroller-eu .quick_nav_menu .hide_ipad_all{display: none}
+
+}
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait){
+    .moneycontroller-eu .page_homepage .box_homepage .area_text { width: 230px;}
+    .moneycontroller-eu .page_homepage .box_homepage .area_text ul {margin-bottom: 5px; }
+    .moneycontroller-eu .page_homepage .box_homepage a {padding: 7px; font-size: 9px; }
+    .moneycontroller-eu .quick_nav_menu{display: block}
+    .moneycontroller-eu .quick_nav_menu .dicono{margin-right: 0px; padding-left: 0px}
+    .moneycontroller-eu .quick_nav_menu .hide_ipad{display: none}
+    .moneycontroller-eu .quick_nav_menu .hide_ipad_all{display: none}
+    .moneycontroller-eu .header_nav .col-lg-7 {padding-left: 0px; }
+    .moneycontroller-eu .header_nav ul li {padding-left: 5px; padding-right: 5px; }
+    .moneycontroller-eu .header_nav ul {margin-left: 20px  }
+
+}
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape){
+    .moneycontroller-eu .submenu_large div {width: 25%; min-height: 270px; }
+    .moneycontroller-eu .submenu_large {max-height: 530px; }
+    .moneycontroller-eu .quick_nav_menu{display: block}
+    .moneycontroller-eu .header_nav ul {margin-left: 25px;}
+    .moneycontroller-eu .header_nav ul li {display: inline;padding-left: 5px;padding-right: 6px;}
+    .moneycontroller-eu .header_nav .col-lg-7 {padding-right: 0px; padding-left: 0px; }
+    .moneycontroller-eu .icon_list ul li a label{display: block}
+    .menu_moneycontroller{margin-top: 0px !important;}                    
+}
+
+.newfooter{background-color: #4e5f83; padding-top: 30px; padding-bottom: 30px;}
+.newfooter .copyright {float: none !important; text-align: left !important}
+.newfooter .copyright span{font-family: 'Open Sans' !important; font-size: 11px !important; text-align: left !important; line-height: 15px !important;}
+.newfooter .copyright ul li {text-align: left !important;}
+.newfooter .copyright ul li a{font-family: 'Open Sans' !important; text-align: left !important; color: #fff; font-size: 11px !important; line-height: 15px !important;}
+.newfooter .loghi {margin-top: 30px}
+.newfooter .loghi img{max-width: 106px; margin-bottom: 5px; width: 100%; filter: grayscale(100%); float: left; margin-right: 5px;}
+.newfooter .footer_link{display: none}
+.newfooter .only_ipad_landscape{display: none}
+.newfooter .categorie_footer_destra{margin-top: 0px}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px){
+    .community_sinistra{width: 50% !important; clear: both}
+    .community_destra{width: 50% !important}
+    .categorie_footer{width: 100% !important}
+    .categorie_footer_sinistra{float: left; width: 54%}
+    .categorie_footer_destra{float: left; width: 40%}
+    .newfooter .footer_link{display: block}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) and (orientation: landscape) {
+    .footer_mobile{width: 33.3%}
+    .moneycontroller_footer{width: 64%}
+    .consulenti_finanziari_footer{width: 35%}
+    .copyright_istituzionale{float: left; margin-top: -135px; margin-left: 216px; line-height: 18px}
+    .community_sinistra{width: 33% !important; clear: both}
+    .community_destra{width: 31% !important}
+    .categorie_footer{width: 34% !important}
+    .footer_privacy_link{padding-top: 7px; display: inline-block; }
+    .newfooter .loghi img{max-width: 122px}
+    .nordea_logo{margin-left: -8px}
+}
+
+@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px){
+    .newfooter .loghi img{max-width: 98px}
+    .community_sinistra{width: 25% !important;}
+    .community_destra{width: 25% !important}
+    .categorie_footer{width: 23% !important}
+    .newfooter .footer_link{display: block}
+    .newfooter .loghi img {max-width: 89px; }
+    .categorie_footer_destra{margin-top: 0px !important;}
+    .community_destra{width: 25% !important; display: none}
+    .newfooter .only_ipad_landscape{display: block}           
+}
+
+@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) and (orientation: portrait) {
+    .consultique_logo{margin-left: -9px;}
+    .fidelity_logo{margin-left: -9px;}
+}
+
+@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) and (orientation: landscape) {
+    .moneycontroller_footer{width: 22% !important}
+    .consulenti_finanziari_footer{width: 25% !important}
+    .community_sinistra{width: 26% !important;}
+    .community_destra{width: 25% !important; display: none}
+    .categorie_footer{width: 25% !important}
+    .newfooter .footer_link{display: block}
+    .newfooter .loghi img {max-width: 89px; }
+    .newfooter .only_ipad_landscape{display: block}
+    .newfooter br.display-mobile-landscape{display: block}
+    .categorie_footer_destra{margin-top: 0px !important;}
+}

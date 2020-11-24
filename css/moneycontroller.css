@@ -1,0 +1,635 @@
+.mt0{margin-top: 0px}
+.mt5{margin-top: 5px}
+.mt10{margin-top: 10px}
+.mt15{margin-top: 15px}
+.mt20{margin-top: 20px}
+.mt30{margin-top: 30px}
+.mt40{margin-top: 40px}
+.mt50{margin-top: 50px}
+.mt60{margin-top: 60px}
+.mt70{margin-top: 70px}
+.mb0{margin-bottom: 0px}
+.mb10{margin-bottom: 10px}
+.mb15{margin-bottom: 15px}
+.mb20{margin-bottom: 20px}
+.mb30{margin-bottom: 30px}
+.mb40{margin-bottom: 40px}
+.mb50{margin-bottom: 50px}
+.mb60{margin-bottom: 60px}
+.mb70{margin-bottom: 70px}
+.mb100{margin-bottom: 100px}
+
+.social_main {padding-right: 15px;}
+.visual_pc{display: block}
+.visual_mobile{display: none}
+
+@-moz-keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } } 
+@-webkit-keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } }
+@-ms-keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; }  } 
+@keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } } 
+.blink-image { -moz-animation: blink normal 0.7s infinite ease-in-out; /* Firefox */ -webkit-animation: blink normal 0.7s infinite ease-in-out; /* Webkit */ -ms-animation: blink normal 0.7s infinite ease-in-out; /* IE */ animation: blink normal 0.7s infinite ease-in-out; /* Opera and prob css3 final iteration */ }
+
+
+.search_isin_box .generic_parag{font-family: futurabookttregular; color: #4e5f83; font-size: 25px}
+.search_isin_box .search_isin{width: 150px; color: #fff; background-color: #a4b9dd; padding: 3px; border: 2px solid #4e5f83; font-size: 15px}
+.search_isin_box .search{width: 18px; vertical-align: -7px; position: relative !important; margin-left: 10px}
+.search_isin_box .search_isin::-webkit-input-placeholder { color:  #fff; }
+.search_isin_box .search_isin::-moz-placeholder { color:  #fff; }
+.search_isin_box .search_isin:-ms-input-placeholder { color:  #fff; }
+.search_isin_box .search_isin:-moz-placeholder { color:  #fff; }
+.search_isin_box .generic_parag.error_message{color: #CC0000; font-size: 13px; display: none}
+.list_paginated {float: right; margin-top: -50px; text-align: center;}
+.list_paginated li{float: left; margin-left: 3px; margin-bottom: 5px;}
+.list_paginated li a{ border: 1px solid #E3E3E3;  color: #AAA; font-size: 12px; line-height: 29px; width: 30px; padding: 0px; text-align: center; display: inline-block;}
+.list_paginated li a.bold{background-color: #E3E3E3 !important; color: #999 !important}
+
+.chart_item_box .single_category div{border: 1px solid #a6a5a5; padding: 10px; text-align: center; margin-bottom: 10px}
+.chart_item_box .single_category h4{font-family: futurabookttregular; letter-spacing: 0px; color: #49494a; margin-top: 5px; text-align: center; line-height: 24px; font-size: 20px;}
+.chart_item_box .single_category img{width: 100%}
+
+.mc_stock_table{font-family: futurabookttregular;}
+.mc_stock_table thead td{vertical-align: middle !important; background-color: #4e5f83 !important; font-family: futurabookttregular; color: #ffffff !important; text-align: center; vertical-align: middle; padding: 8px 8px 8px !important}
+.mc_stock_table thead td span{display: block; margin-top: -4px; font-size: 10px}
+.mc_stock_table td.rend{width: 135px; text-align: center}
+.mc_stock_table td.pos{width: 38px; padding-right: 5px; text-align: center}
+.mc_stock_table tbody tr.your_fonds td{background-color:#a4b9dd !important;}
+.mc_stock_table tbody tr:nth-child(odd) td { background-color: #efeeee;}
+.mc_stock_table tbody tr:nth-child(even) td { background-color: #ffffff;}
+.mc_stock_table tbody td{border:0px !important; line-height: 16px !important; vertical-align: middle !important; color: #49494a; padding: 8px 8px 8px !important}
+.mc_stock_table tbody td.pos{color: #4e5f83;}
+.mc_stock_table tbody td.logo_fondo{width: 160px}
+.mc_stock_table tbody td.logo_fondo img{width: 100%; max-width: 130px}
+.mc_stock_table tbody td.scheda-fondo{width: 140px; text-align: center}
+.mc_stock_table tbody td.scheda-fondo a{color: #4e5f83}
+
+.scheda_consulente figure img{width:100%; border: 1px solid #E3E3E3}
+.scheda_consulente h4{font-size: 21px; color: #4e5f83; line-height: 28px; text-align: center; height: 30px; letter-spacing: 0; margin-bottom: 6px; text-transform: capitalize; font-weight: 400;}
+.scheda_consulente h4 img{width: 40px; vertical-align: -11px; margin-right: 5px;}
+.scheda_consulente .scheda_consulente_generic_info {min-height: 55px; margin-top: 10px; display: block;}
+.scheda_consulente .scheda_consulente_generic_info .company{display: block; padding-bottom: 1px; color: #4e5f83; font-size: 12px; text-align: center;}
+.scheda_consulente .scheda_consulente_generic_info .city{text-align: center;  color: #4e5f83; height: 18px; overflow: hidden; display: block; font-size: 12px; padding-bottom: 10px;}
+.scheda_consulente .scheda_consulente_generic_info .stat{display: block; color: #4e5f83; text-align: center; margin-top: 2px; margin-bottom: 2px; font-size: 12px;}
+.scheda_consulente .scheda_consulente_generic_info .city .other_city{font-size: 10px; height: 15px;}
+.scheda_consulente .mc-blue-button{background-color: #4e5f83; margin-top: 0px; color: #fff; display: block; text-align: center;  padding: 3px; font-family: futuralightttregular; padding-top: 4px; padding-bottom: 4px;}
+.scheda_consulente.guest figure {text-align: center; position: relative}
+.scheda_consulente.guest figure .background_image{position: absolute; background-color: #E3E3E3; z-index: -1; height: 90px; width: 100%} 
+.scheda_consulente.guest img{margin-top: 10px; border: 2px solid #fff; box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15); width: 130px; height: 130px; border: 1px solid transparent; background-clip: content-box; box-sizing: border-box; border-radius: 49.9%;} 
+
+
+.scheda_societa figure img{width:100%; border: 1px solid #E3E3E3}
+.scheda_societa p{font-size: 15px; font-family: futuralightttregular; text-transform: none; color: #49494a; line-height: 23px; padding-top: 10px; padding-bottom: 20px}
+.scheda_societa p img{width: 35px; vertical-align: -8px; margin-right: 5px;}    
+.scheda_societa span{color: #4e5f83; font-family: futurabookttregular; font-size: 16px !important;}    
+
+
+
+.standard_parag{font-family: futuralightttregular; font-size: 18px !important; font-weight: 400; line-height: 25px; margin-bottom: 10px; }
+.standard_parag p{font-family: futuralightttregular; font-size: 18px !important; font-weight: 400; line-height: 25px; margin-bottom: 10px; }
+.standard_parag h2{ margin-top: 60px; margin-bottom: 20px; font-weight: normal; font-family: futurabookttregular; font-size: 28px; text-transform: none; letter-spacing: 0px; color: #4e5f83; }
+.standard_parag h2:first-child{ margin-top: 0px; margin-bottom: 20px;}
+.standard_parag h4{ margin-top: 30px; margin-bottom: 10px; font-family: futurabookttregular; font-size: 28px; text-transform: none; letter-spacing: 0px; color: #4e5f83; }
+.standard_parag h4:first-child{ margin-top: 0px; margin-bottom: 10px;}
+
+.standard_parag ul{list-style-type: disc; margin-left: 20px;}
+.standard_parag ul li{font-size: 18px; cursor: auto;}
+
+.management_box{ display: inline-block; margin-top: 30px; padding-top: 15px; padding-bottom: 15px;}
+.management_box img{ width: 100%}
+.management_box .fotoprofilo{text-align: center; font-size: 14px; line-height: 18px}
+.management_box h3{ margin-top: 60px; margin-bottom: 20px; font-weight: normal; font-family: futurabookttregular; font-size: 28px; text-transform: none; letter-spacing: 0px; color: #4e5f83; }
+.management_box h3:first-child{ margin-top: 0px; margin-bottom: 20px;}    
+
+
+.contatti_page .visual_txt{color: #ffffff; position: absolute; font-size: 25px; font-family:futuralightttregular;  margin: 70px; line-height: 36px; z-index: 999}
+.offerta_provider_page .visual_txt{color: #4e5f83; position: absolute; font-size: 22px; font-family:futuralightttregular;  margin: 50px; line-height: 36px; z-index: 999}
+.titoli_top_page .visual_txt{color: #ffffff; position: absolute; font-size: 22px; font-family:futuralightttregular;  margin: 50px; line-height: 36px; z-index: 999}
+.mynews_page .visual_txt{color: #000000; position: absolute; font-size: 22px; font-family:futuralightttregular;  margin: 50px; line-height: 36px; z-index: 999}
+.educational_page .visual_txt{color: #fff; position: absolute; font-size: 22px; font-family:futuralightttregular;  margin: 50px; line-height: 36px; z-index: 999}
+
+.second-title a.search_tag{background-color: #a4b9dd; margin-bottom: 5px; vertical-align: 2px; color: #fff; display: inline-block; width:130px; text-align: center; padding-top: 5px!important; float: none; padding-bottom: 5px !important; font-family: futurabookttregular; font-size: 12px; line-height: 13px; margin-top: 0px;}
+.second-title a.search_tag:hover{background-color: #4e5f83;}
+.second-title a.search_tag.active{background-color: #4e5f83;}
+
+.button_company {margin-bottom: 3px;}
+.button_company a{display: block; line-height: 13px; text-align: center; padding-top: 5px; padding-bottom: 5px; text-decoration: none; background-color: #a4b9dd; color: #fff; font-family: futurabookttregular; font-size: 11px;}
+.button_company a:hover{background-color: #4e5f83;}
+.leggi_profilo{font-family: futuralightttregular; color: #4e5f83; font-size: 25px !important; font-weight: 400; text-align: center; line-height: 30px; margin-bottom: 10px;}
+
+.calcolo_pensione_integrativa .question_payoff{background-color: #EDEFF1; color: #313E55; font-family: futurabookttregular; font-size: 60px; padding-top: 20px; padding-bottom: 20px; text-align: center}
+.calcolo_pensione_integrativa .question_box{background-image: url(//www.moneycontroller.it/img/pensione_pattern.png); margin-bottom: 10px}
+.calcolo_pensione_integrativa .question_box p{color: #EDEFF1; font-family: futurabookttregular; font-size: 27px; line-height: 50px; text-align: center; margin-top: 30px; margin-bottom: 30px; }
+.calcolo_pensione_integrativa .question_box p.question{font-size: 60px; font-weight: bold; margin-bottom: 50px; margin-top: 60px;}
+.calcolo_pensione_integrativa .question_box .input_money{color: #313E55; line-height: 26px; vertical-align: 3px; width: 130px; display: inline; font-size: 22px; background-color: #fff; text-align: center;}
+.calcolo_pensione_integrativa .question_box .sex{color: #EDEFF1; cursor: pointer; font-family: futurabookttregular; font-size: 40px;}
+.calcolo_pensione_integrativa .question_box .sex img{vertical-align: -5px}
+.calcolo_pensione_integrativa .question_box .btn_calcola{background-color: #EDEFF1; text-align: center; display: block; padding: 10px; cursor: pointer; border-radius: 20px; width: 300px; margin: 0 auto; margin-top: 70px; color: #4e5f83; font-size: 50px; font-family: futurabookttregular;}            
+.calcolo_pensione_integrativa .question_box .min_bottom{margin-bottom: 35px}        
+.calcolo_pensione_integrativa .question_box .max_top{margin-top: 50px;}
+.calcolo_pensione_integrativa .question_box .result{color: #EDEFF1; font-family: futurabookttregular; padding: 0px; line-height: 100px; font-size: 120px; margin-top: 20px; margin-bottom: 20px; text-align: center;}
+.calcolo_pensione_integrativa .rangeslider, .rangeslider__fill { height: 12px; border-radius: 6px; background-clip: padding-box; background-color: #EDEFF1; box-shadow: 0 1px 0 #fff, inset 3px 4px 5px rgba(0, 0, 0, 0.21); }
+.calcolo_pensione_integrativa .rangeslider__handle { width: 22px; height: 22px; border: 0; top: -5px; border-radius: 11px; background-clip: padding-box; background-color: #f6f6f6; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.44), inset 0 1px 0 #fff; background-image: -webkit-linear-gradient(bottom, #dddddd 0%, #f9f9f9 100%); background-image: linear-gradient(to top, #dddddd 0%, #f9f9f9 100%); }
+.calcolo_pensione_integrativa .rangeslider__handle::before {font-family: futurabookttregular; display: block; content: attr(data-content); position: relative; top: -30px; left: -13px; width: 50px; height: 25px; border-radius: 5px; line-height: 25px; text-align: center; color: #EDEFF1 !important; font-size: 18px; background-color: #313E55; }
+.calcolo_pensione_integrativa .right_box .rangeslider__handle::before {font-family: futurabookttregular; display: block; content: attr(data-content); position: relative; top: -30px; left: -13px; width: 50px; height: 25px; border-radius: 5px; line-height: 25px; text-align: center; color: #EDEFF1 !important; font-size: 18px; background-color: #75c61d; }
+.calcolo_pensione_integrativa .left_box{background-color: #75c61d}
+.calcolo_pensione_integrativa .right_box{background-color: #54637c}
+.calcolo_pensione_integrativa .question_box .female {margin-left: 30px;}
+.calcolo_pensione_integrativa .sex .selected{display: none;}
+.calcolo_pensione_integrativa .pensione_parag{font-family: futuralightttregular; font-size: 20px; margin-bottom: 40px}
+.calcolo_pensione_integrativa .question_box .legend_box{margin-top: 10px; color: #EDEFF1;}
+.calcolo_pensione_integrativa .left_box .sex:hover{color: #313E55}
+.calcolo_pensione_integrativa .right_box .sex:hover{color: #75c61d}
+.calcolo_pensione_integrativa .left_box .sex.enabled{color: #313E55}
+.calcolo_pensione_integrativa .right_box .sex.enabled{color: #75c61d}
+.calcolo_pensione_integrativa .question_box ::placeholder { color: #313E55; opacity: 1; }
+.calcolo_pensione_integrativa .question_box :-ms-input-placeholder { color: #313E55; }
+.calcolo_pensione_integrativa .question_box ::-ms-input-placeholder { color: #313E55; }    
+
+.moneycontroller_propone a{color: #4e5f83}
+.moneycontroller_propone a img{width:100%}
+.moneycontroller_propone a span {font-size: 13px; display: block;}
+
+.titoli_top_page h3.titolitop{letter-spacing: 0px; color: #4e5f83; margin-top: 30px; margin-bottom: 30px; text-align: center; text-transform: none; font-family: futuralightttregular;}
+.titoli_top_page .fondi-box{background-color: #4e5f83; border:5px solid #fff; color: #fff; padding-top: 11px}
+.titoli_top_page .fondi-box h4{letter-spacing: 0px; text-align: center; text-transform: none; color: #fff; font-family: futurabookttregular; letter-spacing: 0px; font-size: 15px}
+.titoli_top_page .fondi-box h5{letter-spacing: 0px; margin-top: 10px; height: 58px; font-size: 15px; font-family: futurabookttregular;}
+.titoli_top_page .fondi-box span{display: block; text-align: center; margin-bottom: 10px; font-size: 13px; color: #adc2e4;}
+.titoli_top_page .titoli_payoff{font-family: Arial; margin-top: 0px; font-size: 12px; padding-top: 0px; text-align: right; font-style: italic}
+
+.scheda_fondo_page .bg_gray{background-color: #ebe8ea}
+.scheda_fondo_page .company_detail a{color: #4e5f83; text-decoration: underline; font-family: futurabookttregular;}
+.scheda_fondo_page .company_detail .share_box{text-align: right}
+.scheda_fondo_page .company_detail .share_box span{display: inline-block; vertical-align: 15px; font-size: 13px; text-align: right;}
+.scheda_fondo_page .company_detail .share_box div.addthis_inline_share_toolbox{text-align: right; display: inline-block}
+
+.scheda_fondo_page hr{margin-bottom: 20px}
+.scheda_fondo_page .analysis_disclaimer{font-size: 12px; display: block; font-family: futuralightttregular;}
+.scheda_fondo_page .generic_info p{font-size: 18px; font-family: futuralightttregular;}
+.scheda_fondo_page table{width: 100%;font-family: futuralightttregularUbuntu; font-size: 14px}
+.scheda_fondo_page table .header{background-color: #efeeee; font-size: 14px; text-align: center; vertical-align: middle; font-weight: 500;  font-family: futuralightttregular; color: #4e5f83; text-transform: uppercase; padding: 10px;}
+.scheda_fondo_page table tr:nth-child(even) {background-color: #efeeee; }
+.scheda_fondo_page table td{text-align: center; vertical-align: middle; padding: 5px; font-family: futuralightttregular; font-size: 14px; color: #49494a}
+.scheda_fondo_page table td img{height: 20px;}
+.scheda_fondo_page table td.title{font-family: futuralightttregular; color: #4e5f83; font-weight: 500; text-transform: uppercase; text-align: left}
+.scheda_fondo_page .table_results td {font-family: futuralightttregular; padding: 5px; border:1px solid #fff;}
+.scheda_fondo_page .table_results .title{font-family: futuralightttregular; color: #4e5f83; padding: 5px; font-weight: 500; text-transform: uppercase; text-align: left; background-color: #efeeee}
+
+.dettaglio_rendimento {font-size: 18px; line-height: 22px; font-family: futuralightttregular}
+.dettaglio_rendimento .rendimenti_disclaimer{font-size: 12px; line-height: 15px}
+.dettaglio_rendimento .btn_scheda_analisi{background-color: #4e5f83; margin-top: 10px; line-height: 16px; color: #fff; display: block; font-family: futurabookttregular; text-align: center; padding: 5px;}
+.dettaglio_rendimento .fundinfo img{width: 85px; vertical-align: -2px}
+.dettaglio_rendimento .fundinfo{line-height: 15px; margin-top: 5px; font-family: futurabookttregular; color: #4e5f83}
+.dettaglio_rendimento .doc_list{margin-top: 5px;}
+.dettaglio_rendimento .doc_list li{float: left; margin-right: 3px; line-height: 25px; background-color: #6B8EC5; padding: 5px; padding-top: 0px; width: 85px; padding-bottom: 0px; float: left;}
+.dettaglio_rendimento .doc_list li:last-child{margin-right: 0px;}
+.dettaglio_rendimento .doc_list li a{font-size: 14px; font-family: futurabookttregular; color: #fff;}
+.dettaglio_rendimento .doc_list img{width: 15px; vertical-align: -3px; margin-right: 0px;}
+
+.fundinfo_section {margin-top: 10px;}
+.fundinfo_section p{line-height: 15px; margin-top: 5px; font-size: 13px}
+.fundinfo_section p:first-child{font-family: futurabookttregular; font-size: 15px; color: #4e5f83}
+.fundinfo_section p img{width: 100px}
+.fundinfo_section ul{margin-top: 5px}
+.fundinfo_section ul img{width: 20px; vertical-align: -5px}
+.fundinfo_section ul li {background-color: #6B8EC5; padding: 5px; padding-top: 0px; padding-bottom: 0px; float: left; width: 105px; margin-right: 5px; margin-bottom: 5px;}
+.fundinfo_section ul li a{font-family: futurabookttregular; color: #fff}      
+
+.standard_parag b.blue{color: #4e5f83; font-weight: normal; font-family: futurabookttregular;}
+.standard_parag a.analysis_logo img{width: 80px; vertical-align: -6px}
+.standard_parag a.analysis_logo span{color: #bd3632; font-family: futurabookttregular;}
+
+.costo_fondi_page .legenda span{font-family: futurabookttregular;color: #4e5f83; letter-spacing: 0; line-height: 40px; text-transform: none; font-weight: 400; font-size: 20px; text-align: left; padding-bottom: 0 !important;}
+.costo_fondi_page .legenda p{font-family: futuralightttregular; padding-left: 0px; margin-bottom: 0px; font-size: 12px; font-weight: 400; text-align: left}
+.costo_fondi_page .legenda p a{text-decoration: underline}
+
+.standard_table{margin-top: 10px; margin-bottom: 30px}
+.standard_table .head td{ height: 50px; background-color: #4e5f83 !important; font-family: futurabookttregular; color: #ffffff !important; text-align: center; vertical-align: middle; padding: 10px; padding-left: 5px; padding-right: 5px;}
+.standard_table .head td span{ display: block; font-size: 10px}
+.standard_table tbody tr:nth-child(even) td {background-color: #c7c3c2 !important}
+.standard_table tbody tr:nth-child(odd) td {background-color: #efeeee !important}
+.standard_table tbody tr td{color: #49494a; padding: 10px; height: 90px; font-size: 15px; vertical-align: middle; padding: 5px; vertical-align: middle; font-family: futurabookttregular;}    
+.standard_table.no_logo_table tbody tr td{height: 50px;}    
+.standard_table tbody tr td.posizione{font-family: futurabookttregular; width: 38px; padding-right: 5px; color: #4e5f83; font-size: 15px; text-align: center;}    
+.standard_table tbody tr td.logo_azienda {line-height: 0px;}   
+
+.standard_table.stock_table tbody tr td.logo_azienda{width: 150px;}    
+
+.standard_table tbody tr td.logo_azienda {text-align: center}    
+.standard_table tbody tr td.logo_azienda img{width: 140px;}    
+.standard_table tbody tr td.nome_fondo{letter-spacing: 0px !important; font-family: futurabookttregular}    
+.standard_table tbody tr td.nome_fondo span{font-size: 16px}    
+.standard_table tbody tr td.isin{text-align: left; width: 125px;}    
+.standard_table tbody tr td.valore{text-align: center; font-family: futurabookttregular}    
+.standard_table tbody tr td.valore.currency{width: 100px;}    
+.standard_table tbody tr td.valore.anno{min-width: 70px}    
+.standard_table tbody tr td.valore.volatilita{width: 90px}    
+.standard_table tbody tr td.valore.rapporto_ter{width: 150px;}    
+.standard_table tbody tr td.collegamento{width: 100px; text-align: center}    
+.standard_table tbody tr td.data_partenza{width: 150px; text-align: center}    
+.standard_table.stock_table tbody tr td.collegamento{width: 150px; text-align: center}    
+.standard_table tbody tr td a{font-family: futurabookttregular; color: #4e5f83; text-decoration: underline; font-size: 15px;}
+.standard_table tbody tr.your_fonds td{background-color:#a4b9dd !important;}
+
+.standard_table .label_add_portfolio{line-height: 15px;}
+.standard_table .btn_add_portfolio{ width: 20px; text-align: center; vertical-align: middle; padding-left: 0px; padding-right: 0px;}
+.standard_table .btn_add_portfolio span{ cursor: pointer; display: block; margin: 0 auto; width: 20px; height: 20px; background-position: center center; background-repeat: no-repeat; background-size: contain }
+.standard_table .btn_add_portfolio span.to_add{ background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_add_.png');}
+.standard_table .btn_add_portfolio span.to_remove{ background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_canc_green.png');}                        
+
+
+.new_reg_detail_box .new_cat_box div{border: 1px solid #a6a5a5; padding: 10px; height: 165px; text-align: center; margin-bottom: 10px}
+.new_reg_detail_box .new_cat_box h4{font-family: futurabookttregular; letter-spacing: 0px; color: #49494a; margin-top: 5px; text-align: center; line-height: 22px; font-size: 19px;}
+.new_reg_detail_box .new_cat_box span{display: block; font-size: 14px; line-height: 18px; letter-spacing: 0px}
+.elenco_fondi_page .new_cat_box{width: 14.2%; padding-left: 8px; padding-right: 8px;}    
+.tabella_disclaimer{font-family: futuralightttregular; padding-left: 0px; margin-bottom: 0px; font-size: 13px; line-height: 17px; font-weight: 400; text-align: right}
+
+.box_casa_prodotto{margin-bottom: 10px;}
+.box_casa_prodotto div{padding: 5px; padding-left: 40px;}
+.box_casa_prodotto div{background-image: url(//www.moneycontroller.it/img/categorie/cat_generico_punto_elenco.png); background-repeat: no-repeat; background-position: top left}
+.box_casa_prodotto h2{background-image: url(img/p); font-family: futurabookttregular; color: #4e5f83; line-height: 18px; min-height: 40px; letter-spacing: 0px; text-align: left; font-size: 13px;}
+
+.box_categoria_prodotto{background-color: #a4b9dd; color: #fff; text-align: center; display: block; font-family: futuralightttregular; font-size: 15px; padding-top: 5px; padding-bottom: 5px; text-align: center;}
+.box_categoria_prodotto:hover{text-decoration: underline; color: #fff; background-color: #4e5f83;}
+
+.classifiche_fondi_etf .col-lg-offset-1{margin-left: 12.5%}
+
+.chart_item_box.chart_item_box_five .col-lg-3{width: 20%;}
+.chart_item_box.chart_item_box_five .single_category h4{font-size: 18px}
+
+.news_article img{width:100%; border: 1px solid #efedee}
+.news_article h5{font-weight: 400; font-size: 18px; text-transform: none; line-height: 18px; margin-bottom: 6px; font-family: futurabookttregular; color: #4e5f83; letter-spacing: 0;}
+.news_article h4{font-size: 20px; line-height: 25px; font-weight: 400; text-transform: none; margin-bottom: 6px; font-family: futurabookttregular; color: #4e5f83; letter-spacing: 0;}
+.news_article p{font-size: 17px; font-family: futuralightttregular; line-height: 23px; color: #49494a; text-transform: none;}
+.news_article a{text-decoration: underline; font-family: futurabookttregular; color: #4e5f83; margin-top: 30px; font-size: 16px;}
+.news_article bottom_news{display: block}            
+.news_article span{float: right; font-family: futuralightttregular}            
+
+.single_comunity_post {display:block}
+.single_comunity_post .avatar_img{margin-bottom: 10px; padding-bottom: 10px;}
+.single_comunity_post .avatar_img img{width: 100%; border:1px solid #efedee; display: block;}
+.single_comunity_post .avatar_img a{font-family: futurabookttregular; margin-top: 10px; color: #4e5f83; text-align: left; text-transform: none; font-size: 14px}
+.single_comunity_post a.left{float:left}
+.single_comunity_post a.right{float:right}
+.single_comunity_post .post_div{padding-bottom: 5px;}
+.single_comunity_post .post_div .title{padding: 0px;}
+.single_comunity_post .post_div .title h4{font-size: 19px; line-height: 26px; text-transform: none; margin-bottom: 6px; font-family: futurabookttregular; color: #4e5f83; letter-spacing: 0;}
+.single_comunity_post .post_div .title h5{font-family: futuralightttregular; letter-spacing: 0px; text-transform: none; font-size: 14px; color: #49494a;}
+.single_comunity_post .post_div .title h5 span{font-family: futurabookttregular; margin-top: 10px; color: #4e5f83; text-align: left; text-transform: none; font-size: 16px;}
+.single_comunity_post .post_div .title h5 a{color: #4e5f83; text-decoration: none; font-weight: 500;}
+.single_comunity_post .post_div .title h5 a:hover{color: #4e5f83; text-decoration: underline; font-weight: 500;}
+.single_comunity_post .post_div .rate-wrap ul{color: #4e5f83; height: 27px; display: inline-block; background-color: #efeeee; padding: 0px; font-family: futurabookttregular; font-weight: 700;}
+.single_comunity_post .post_div .rate-wrap ul li {float: left; margin-left: 5px; margin-right: 15px;}
+.single_comunity_post .post_div .rate-wrap ul li img{width: 16px; vertical-align: -3px}
+.single_comunity_post .post_div .rate-wrap ul li.divider{border-right: 1px solid #a6a5a5;padding-right: 14px; margin-right: 8px; height: 27px;}
+.single_comunity_post .post_div p{margin-top: 10px; margin-bottom: 10px; font-family: futuralightttregular; text-transform: none; font-size: 15px; line-height: 22px; color: #49494a;}
+.single_comunity_post .post_div a{font-family: futurabookttregular; margin-top: 10px; color: #4e5f83; text-align: left; text-transform: none; font-size: 16px}
+
+.single_comunity_post .post_text_div p{margin-top: 10px; margin-bottom: 10px; font-family: futuralightttregular; text-transform: none; font-size: 15px; line-height: 22px; color: #49494a;}
+.single_comunity_post .post_text_div a{font-family: futurabookttregular; margin-top: 10px; color: #4e5f83; text-align: left; text-transform: none; font-size: 16px}
+
+.community_search table { width: 100%; margin-bottom: 20px }
+.community_search td { vertical-align: middle }
+.community_search td:first-child { padding-right: 10px; padding-bottom: 10px; padding-top: 10px; width: 55px; }
+.community_search input[type=text] {background-image: url(//www.moneycontroller.it/img/lente_ricerca.png); background-position: right; background-position-x: 98%; background-repeat: no-repeat;  display: inline-block; background-color: #ebe8ea; font-weight: 400 !important; font-size: 14px; margin-top: 5px; margin-bottom: 5px; font-family: futuralightttregular; padding: 6px 13px; padding-right: 45px; width: 100% }    
+.community_header_title{color: #4e5f83; font-weight: 500; padding-left: 5px; padding-top: 13px; padding-bottom: 13px; font-size: 25px; text-transform: uppercase; cursor: pointer;}
+.community_header_title img{float: left; margin-right: 5px; margin-top: 5px;}
+
+.category_search_box { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border: 1px solid #ccc; float:right; margin-top: -20px}
+.category_search_box input[type=text]{font-family: futuralightttregular; width: 199px; font-size: 14px; padding: 6px}
+.category_search_box img{display: inline-block; cursor: pointer; vertical-align: -7px; width: 20px; margin-left: 1px; margin-right: 5px}
+
+.company_summary_card {padding-bottom: 30px; margin-bottom: 10px;}
+.company_summary_card a{font-family: futurabookttregular; font-size: 16px; color: #4e5f83;}
+.company_summary_card img{width: 100%; border: 1px solid #ebe8ea; margin-bottom: 10px}
+.company_summary_card img.awards{width: 35px; vertical-align: -8px; margin-right: 5px; border:0px; vertical-align: -20px}
+
+.category_intro_box {border: 1px solid #a6a5a5; padding: 15px}
+.category_intro_box img{width: 100%}
+.category_intro_box h4{font-family: futurabookttregular; letter-spacing: 0px; color: #49494a; height: 45px; margin-top: 5px; text-align: center; line-height: 24px; font-size: 20px;}
+
+.category_intro_small_box{min-height: 75px}
+.category_intro_small_box div{background-image: url(//www.moneycontroller.it/img/categorie/cat_generico_punto_elenco.png); min-height: 40px; background-repeat: no-repeat; background-position: top left}
+.category_intro_small_box div h4{display: inline-block; font-family: futurabookttregular; padding-left: 40px; font-size: 20px; color: #49494a; letter-spacing: 0px; margin-top: 5px; margin-bottom: 20px}
+
+.educational_page h2{margin-bottom: 5px; margin-top: 40px; font-family: futurabookttregular; font-size: 25px; font-weight: normal; text-transform: none; letter-spacing: 0px; color: #4e5f83;}
+.educational_page h3{margin-bottom: 5px; margin-top: 40px; font-family: futurabookttregular; font-size: 23px; font-weight: normal; text-transform: none; letter-spacing: 0px; color: #4e5f83;}
+.educational_page h4{margin-bottom: 5px; margin-top: 40px; font-family: futurabookttregular; font-size: 23px;  font-weight: normal; text-transform: none; letter-spacing: 0px; color: #4e5f83;}
+.educational_page ul{ margin-top: 20px; list-style-type: disc; margin-left: 20px; }
+.educational_page ul li{ font-family: 'Open Sans'; font-size: 14px; font-weight: 400; color: #666; line-height: 30px; margin-bottom: 10px; }
+.educational_page ul li em{font-style: italic}
+.educational_page ul li a.link{color: #375D81; cursor:pointer; text-decoration: underline; font-weight: 600}
+.educational_page ul li span{cursor: pointer;}
+.educational_page ol{ margin-top: 20px; list-style-type: decimal; margin-left: 20px; }
+.educational_page ol li{ font-family: 'Open Sans'; font-size: 14px; font-weight: 400; color: #666; line-height: 30px;  margin-bottom: 10px; }
+.educational_page ol li a.link{color: #375D81; cursor:pointer; text-decoration: underline; font-weight: 600}
+.educational_page ol li span{cursor: pointer;}
+
+.educational_page .standard_parag .featured_img{float: left; margin-right: 30px; max-width: 400px}
+.educational_page .standard_parag h2{margin-top: 20px}
+.educational_page .standard_parag p{margin-bottom: 10px}
+.educational_page .standard_parag p em{font-style: italic}
+.educational_page .standard_parag p strong{font-weight: bold;}
+.educational_page .standard_parag p{font-family: 'Open Sans'; font-size: 14px !important; color: #666; line-height: 30px; margin-bottom: 20px}
+.educational_page .standard_parag p a{color: #375D81; text-decoration: underline; font-weight: 600}
+
+.webradio_page .second-title h1{font-size: 40px !important; text-align: center; color: #4e5f83; padding-bottom: 10px !important;}
+.webradio_page .today_program .second-title {margin-top: -10px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px; border-bottom: 0px !important}
+.webradio_page .today_program .second-title h2{border-bottom: 0px; font-size: 22px}
+
+
+.webradio_page .piu_ascoltate div{min-height: 130px; border-bottom: 1px solid #E3E3E3;}
+.webradio_page .piu_ascoltate span.speaker{color: #49494a; font-family: futurabookttregular; font-size: 14px; line-height: 20px; text-align: left; display: block;}
+.webradio_page .piu_ascoltate span.views{color: #ffc107; margin-bottom: 4px; font-family: futurabookttregular; font-size: 12px; font-style: italic; font-weight: bold; line-height: 16px; text-align: left; display: block;}
+.webradio_page .piu_ascoltate h2{margin: 0px; padding: 0px; margin-bottom: 5px; font-family: futurabookttregular; letter-spacing: 0px; color: #4e5f83; text-transform: none; font-weight: normal; font-size: 17px; line-height: 20px;}
+.webradio_page .piu_ascoltate p{font-size: 15px; line-height: 20px; font-family: futuralightttregular;}
+
+.webradio_page .intervista_singola{min-height: 171px; margin-top: 20px; border-bottom: 1px solid #E3E3E3}
+.webradio_page .intervista_singola img{width: 100%}
+.webradio_page .intervista_singola img.play{width: 65px; height: 65px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%)}
+.webradio_page .intervista_singola .autore{font-size: 14px; text-align: center;}
+.webradio_page .intervista_singola span.speaker{color: #49494a; font-family: futurabookttregular; font-size: 14px; line-height: 20px; text-align: left; display: block;}
+.webradio_page .intervista_singola span.views{color: #ffc107; margin-bottom: 4px; font-family: futurabookttregular; font-size: 12px; font-style: italic; font-weight: bold; line-height: 16px; text-align: left; display: block;}
+.webradio_page .intervista_singola span.date{font-size: 12px; font-style: italic; text-align: right; line-height: 20px; display: block;}
+.webradio_page .intervista_singola h2{margin: 0px; padding: 0px; font-family: futurabookttregular; letter-spacing: 0px; color: #4e5f83; text-transform: none; font-weight: normal; font-size: 16px; line-height: 20px;}
+.webradio_page .intervista_singola p{font-size: 14px; line-height: 20px; font-family: futuralightttregular;}
+
+.webradio_page .second-title.calltoaction_radio {font-size: 26px; color: #4e5f83; padding-bottom: 15px; border-bottom: 0px;}
+.webradio_page .second-title.calltoaction_radio h2{text-align: center; border-bottom: 0px !important; margin-bottom: 5px; font-size: 40px}
+.webradio_page .second-title.calltoaction_radio a{float: none; font-family: futurabookttregular; text-transform: none; text-decoration: underline; font-size: 26px}
+
+.second-title.profilo {margin-bottom: 0px; padding-bottom: 0px}
+.second-title.profilo h2{text-transform: uppercase; font-family:futuralightttregular; font-size: 20px; margin-bottom: 20px;}
+.interviste_radio div{margin-bottom: 10px;}
+.intervista_profilo{border-bottom: 1px solid #E3E3E3;}
+.intervista_profilo img{width: 100%}
+.intervista_profilo img.play{width: 65px; height: 65px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-65%)}
+.intervista_profilo h3{margin: 0px; padding: 0px; margin-bottom: 5px; font-family: futurabookttregular; letter-spacing: 0px; color: #4e5f83; text-transform: none; font-weight: normal; font-size: 20px; line-height: 23px;}
+.intervista_profilo .info{margin-bottom: 3px; display: block; font-family: futuralightttregular;}
+.intervista_profilo .info span{font-family: futuralightttregular; color: #49494a; margin-bottom: 8px; font-size: 17px; display: inline; text-align: left; line-height: 20px;}
+.intervista_profilo .info span.views{color: #ffc107; font-family: futurabookttregular;}
+.intervista_profilo p{font-size: 18px; margin-bottom: 15px; line-height: 23px; font-family: futuralightttregular;}
+.intervista_profilo a.mc-blue-button{font-family: futurabookttregular; display: block; margin-top: 0px; font-size: 16px; color: #4e5f83;}
+
+.banner_webradio_investitori_professionali{z-index: 999999; background-position: center center; background-repeat: no-repeat; width:400px; padding-bottom: 20px}
+.banner_webradio_investitori_professionali span{font-size: 20px; font-weight: 300; padding: 15px; padding-top: 22px; text-align: center; color: #4e5f83; display: block}
+.banner_webradio_investitori_professionali p{text-align: center}
+.banner_webradio_investitori_professionali p a{background-color: #4e5f83; cursor: pointer; color: #fff; text-align: center; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; font-size: 16px; font-weight: 500; float: none; width: 155px; line-height: 19px; display: inline-block; padding-top: 5px; padding-bottom: 5px;}
+.banner_webradio_investitori_professionali p a:hover{color: #fff;}
+
+.dem_moneycontroller img{width: 100%; border: 1px solid #e3e3e3}
+.dem_moneycontroller p{ font-family: Lato; min-height: 80px}
+
+.financial-educational-awards-company {margin-bottom: 20px !important; margin-top: 20px;}
+.financial-educational-awards-company p{text-align: center; line-height: 30px; color: #4e5f83; font-family: futurabookttregular; font-size: 25px;}
+.financial-educational-awards-company div{margin-bottom: 0px;}
+.financial-educational-awards-company p.awards{font-size: 30px; color: #C6AB56}
+.financial-educational-awards-company img{width: 100%}
+
+.calltoaction_footer_company .box_function_adv{background-color: #4e5f83;font-family: futurabookttregular; text-align: left; margin-bottom: 10px;}
+.calltoaction_footer_company .box_function_adv:hover{background-color: #bbb;}
+.calltoaction_footer_company .box_function_adv h5{font-size: 20px; letter-spacing: 0px; line-height: 17px; color: #fff; padding-top: 30px; }
+.calltoaction_footer_company .box_function_adv  table td{vertical-align: middle}
+.calltoaction_footer_company .box_function_adv  table td h5{padding-top: 0px; font-size: 17px;}
+.calltoaction_footer_company .box_function_adv  table td.img_col{width: 100px; padding-top: 20px;}
+.calltoaction_footer_company .box_function_adv  table td.img_col img{width: 100%}
+
+
+.circle_track{background-color: #4e5f83; border:1px solid #fff; font-family: futurabookttregular; color: #fff; display: block; border-radius: 89px; text-align: center; padding-top: 2px; position: absolute; top: -13px; font-size: 9px; font-weight: bold; width: 18px; height: 18px; line-height: 13px;}
+
+.scheda_btn_add_portfolio{cursor: pointer; background-color: #4e5f83; background-position: left center; background-repeat: no-repeat; background-size: 17px; color: #fff; font-size: 16px; font-family: futurabookttregular; padding: 4px; padding-left: 25px; background-position-x: 3px;}
+.scheda_btn_add_portfolio:hover{background-color: #a6a5a5;}
+.scheda_btn_add_portfolio.to_add{background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_add_.png');}
+.scheda_btn_add_portfolio.to_remove{background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_canc_green.png');}
+
+.inportafoglio .scheda_btn_add_portfolio{background-color: lightgreen; color: green}
+
+.scheda_profilo_consulente{background: #fafafa; border:1px solid #e3e3e3; box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1); border-radius: 24px; padding-bottom: 5px; margin-bottom: 10px;}
+.scheda_profilo_consulente:hover{box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);}
+.scheda_profilo_consulente figure{height: 180px; background-size: cover;border-radius: 24px 24px 0px 0px; background-repeat: no-repeat; background-position: top center;}
+.scheda_profilo_consulente h2{color: #898A8C; text-decoration: none; font-family: 'Open Sans'; letter-spacing: 0px; text-transform: none; font-weight: 600; font-size: 18px;}
+.scheda_profilo_consulente .card_detail{margin-left: 10px; text-align: center; margin-right: 10px; margin-top: 20px; margin-bottom: 20px; display: block}
+.scheda_profilo_consulente span{color: #898A8C; display: block; font-family: 'Open Sans'; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 13px;}
+.scheda_profilo_consulente span.attivo{color: #375D81; margin-top: 5px; margin-bottom: 5px; display: block; font-family: 'Open Sans'; letter-spacing: 0px; text-transform: none; font-weight: 600; font-size: 10px;}
+.scheda_profilo_consulente a{color: #375D81; margin-top: 0px; display: block; font-family: 'Open Sans'; letter-spacing: 0px; text-transform: none; font-weight: 600; font-size: 15px;}            
+.scheda_profilo_consulente figure .awards{position: absolute; right: 20px; top: 10px;z-index: 9}
+.scheda_profilo_consulente figure .awards img{ width: 45px;}
+.scheda_profilo_consulente span.city{font-family: 'Open Sans'; font-weight: 600; display: block; min-height: 50px; font-size: 15px; color: #375D81}
+.scheda_profilo_consulente span.other_city{font-family: 'Open Sans'; font-weight: 400; display: inline; font-size: 12px; color: #375D81}
+.scheda_profilo_consulente_generica .card_detail{margin-right: 5px; margin-left: 5px;}
+.scheda_profilo_consulente_generica h2{font-size: 13px; line-height: 16px;}
+.scheda_profilo_consulente_generica span.city{color: #375D81; font-size: 12px;  overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; min-height: 18px; font-weight: 600; text-transform: uppercase; margin-bottom: 10px}
+
+.financial-educational-awards-company .testoawards{margin-left: 33px }
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 568px) {
+    .second-title h1{line-height: 28px !important;}
+    .second-title a{margin-bottom:36px ;}
+    .scheda_consulente{margin-bottom: 50px}
+    .scheda_consulente .mc-blue-button{margin-left: 0px}
+    .visual_pc{display: none}
+    .visual_mobile{display: block}
+    .calcolo_pensione_integrativa .question_payoff{font-size: 25px;}
+    .calcolo_pensione_integrativa .question_box p.question{font-size: 30px; font-weight: bold; margin-bottom: 18px; line-height: 34px; margin-top: 3px;}
+    .calcolo_pensione_integrativa .question_box p{font-size: 21px; margin-bottom: 15px; margin-top: 15px;}
+    .calcolo_pensione_integrativa .question_box .sex{font-size: 22px}
+    .calcolo_pensione_integrativa .question_box .sex img{vertical-align: -10px}
+    .calcolo_pensione_integrativa .question_box .result{line-height: 62px; font-size: 85px;}
+    .calcolo_pensione_integrativa .min_bottom{margin-bottom: 20px !important}
+    .calcolo_pensione_integrativa .max_top{margin-top: 30px;}
+    .calcolo_pensione_integrativa .question_box .btn_calcola { width: 243px; margin-top: 50px; font-size: 38px;}
+    .moneycontroller_propone h2{font-size: 25px}
+    .moneycontroller_propone a{font-size: 11px; color: #4e5f83; display: block; min-height: 170px;}
+    .moneycontroller_propone a span {font-size: 11px; display: block;}
+
+    .standard_table tbody tr td.logo_azienda img{width: 100px;}   
+    .standard_table tbody tr td.nome_fondo{min-width: 130px;}       
+    .standard_table thead tr td.label_add_portfolio{line-height: 14px; font-size: 14px; white-space: normal !important}
+
+    .elenco_fondi_page .new_cat_box{width: 50%;}
+    .new_reg_detail_box .new_cat_box div{ height: auto;}
+
+    .classifiche_fondi_etf .col-lg-offset-1{margin-left: auto}
+    .chart_item_box.chart_item_box_five .col-xs-12{width: 100%;}
+
+    .community_header_title{font-size: 18px; line-height: 20px}
+    .community_header_title img{width: 40px; margin-top: 0px }
+
+    .webradio_page .second-title h1{font-size: 28px !important; line-height: 30px !important}
+    .webradio_page .piu_ascoltate div{min-height: calc;}
+    .webradio_page .second-title.calltoaction_radio {font-size: 20px; padding-top: 10px}
+    .webradio_page .second-title.calltoaction_radio h2{font-size: 30px}
+    .webradio_page .second-title.calltoaction_radio a{font-size: 20px}
+
+    .banner_webradio_investitori_professionali{width: 300px}
+    .banner_webradio_investitori_professionali p {padding: 10px}    
+    .banner_webradio_investitori_professionali p a{width: 100%; display: block; margin-bottom: 5px;} 
+
+    .financial-educational-awards-company .testoawards{margin-left: 0px }
+    .financial-educational-awards-company p{font-size: 18px; line-height: 22px;}
+    .financial-educational-awards-company p.awards{font-size: 26px; display: block; margin-top: 5px; margin-bottom: 5px;}
+    .financial-educational-awards-company img{margin-top: 10px;}
+    .calltoaction_footer_company .box_function_adv table td h5 {font-size: 15px;}
+
+    #consulente_finanziario_premium{font-size: 15px !important}
+}
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 568px) and (orientation: landscape) {
+    .visual_pc{display: none}
+    .visual_mobile{display: block}    
+    .moneycontroller_propone a{ margin-bottom: 10px;}
+    .chart_item_box .single_category {width:50%}
+    .classifiche_fondi_etf .single_category{width: 33%}
+    .chart_item_box.chart_item_box_five .col-xs-12{width: 50%;}
+
+    .chi_siamo_page .management_box .fotoprofilo{width: 40%}    
+    .chi_siamo_page .management_box .testoprofilo{width: 60%}    
+
+    .dem_moneycontroller  .col-xs-12{width: 50%;}
+
+    .intervista_profilo .fotoprofilo{width: 40%}
+    .intervista_profilo .testoprofilo{width: 60%}
+
+    .financial-educational-awards-company p{font-size: 15px; line-height: 20px;}
+    .financial-educational-awards-company .testoawards{width: 50% }
+    .financial-educational-awards-company .fotoawards{width: 24%}
+    .financial-educational-awards-company .fotoawards.col-xs-offset-3{margin-left: 0px;}
+
+    .col-xs-12.company_summary_card{width:50%}
+    .col-xs-12.company_summary_card.crowdfunding{width: 75%; margin-left: 12.5%}
+    .col-xs-12.top_category{width:33.3%}
+    .top_category .category_intro_box h4{font-size: 14px; line-height: 18px;}
+    .single_comunity_post .avatar_img{width: 35%}
+    .single_comunity_post .post_div{width: 65%}
+    .col-xs-12.scheda_consulente{width:50%}
+    .richiedi_consulenza_page .col-xs-12.scheda_societa{width:33.3%}
+    .scheda_societa p{min-height: 295px}
+    .col-xs-12.button_company{width: 50%}
+
+    .prov_list .col-xs-12{width:50%}
+    .mynews_page .news_article .col-xs-12{width:50%}
+    .logoapp{width:30%}
+    .testoapp{width:70%}
+
+}
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px){
+    .educational_page .standard_parag .featured_img{float: none; margin-right: auto; max-width: inherit; width: 100%}
+}    
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px) and (orientation: portrait) {
+    .educational_page .visual_txt{display: none}
+}
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 667px) and (orientation: landscape) {
+    .educational_page .standard_parag .featured_img{float: left; margin-right: 30px; max-width: 300px}
+}
+
+@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px){
+    .scheda_consulente{margin-bottom: 50px}
+    .elenco_consulenti_page .scheda_consulente{margin-bottom: 60px};
+    .scheda_consulente .mc-blue-button{margin-left: 0px}
+    .visual_pc{display: block}
+    .visual_mobile{display: none}
+    .management_box{font-size: 15px; line-height: 20px;}
+    .contatti_page #provincia{display: block !important; width: 100% !important}
+    .scheda_consulente h4{line-height: 21px; height: 36px; font-size: 18px}
+    .scheda_consulente h4 img{width: 34px;}
+    .scheda_consulente.guest h4{height: 25px;}
+    .scheda_consulente.guest img {width:100px; height: 100px;}
+    .scheda_consulente.guest .scheda_consulente_generic_info{min-height: 45px}
+
+
+    .calcolo_pensione_integrativa .question_payoff{font-size: 50px;}
+    .calcolo_pensione_integrativa .question_box p{font-size: 22px;}
+    .calcolo_pensione_integrativa .question_box .input_money{display: block; width: 100%}
+    .calcolo_pensione_integrativa .question_box p.question{font-size: 30px; line-height: 35px; font-weight: bold; margin-bottom: 30px; margin-top: 40px;}
+    .calcolo_pensione_integrativa .question_box .sex{font-size: 30px;}
+    .calcolo_pensione_integrativa .question_box .btn_calcola { width: 270px; margin-top: 70px; font-size: 35px;}
+    .calcolo_pensione_integrativa .question_box .result{font-size: 80px; margin-top: 0px; margin-bottom: 0px;}
+    .calcolo_pensione_integrativa .question_box .max_top{margin-top: 20px;}   
+    .moneycontroller_propone a{font-size: 11px; color: #4e5f83}
+    .moneycontroller_propone a span {font-size: 11px; display: block;}
+
+    .titoli_top_page .visual_txt{font-size: 20px; line-height: 30px;}
+    .titoli_top_page .fondi-box h4{font-size:13px}
+    .titoli_top_page .fondi-box h5{font-size: 13px; height: 60px; line-height: 14px;}       
+
+    .scheda_fondo_page .generic_info p{font-size: 15px; line-height: 21px;}
+    .scheda_fondo_page table .header{font-size: 13px; line-height: 15px; padding: 5px;}
+
+    .standard_table .head td{ font-size: 14px; line-height: 13px; padding:7px} 
+    .standard_table tbody tr td.nome_fondo{min-width: 330px; font-size: 13px}    
+    .standard_table tbody tr td.nome_fondo span{font-size: 13px;}    
+
+    .new_reg_detail_box .new_cat_box h4{font-size: 15px;}
+    .new_reg_detail_box .new_cat_box span{ font-size: 10px;}
+
+    .classifiche_fondi_etf .single_category h4{font-size: 18px}
+    .chart_item_box.chart_item_box_five .single_category h4{font-size: 19px}
+
+    .mynews_page .visual_txt{line-height: 30px; margin: 50px}
+
+    .single_comunity_post .avatar_img a.left{display: block; float: none; text-align: center}
+    .single_comunity_post .avatar_img a.right{display: block; float: none; text-align: center}
+
+    .community_header_title{font-size: 18px; line-height: 20px}
+    .community_header_title img{width: 40px;}
+
+    .category_intro_box {padding: 5px;}
+    .category_intro_box h4{font-size: 16px; line-height: 18px;}
+
+    .educational_page .visual_txt{line-height: 30px; margin: 30px; margin-top: 20px}
+
+    .webradio_page .second-title h1{font-size: 30px !important}
+    .webradio_page .today_program .second-title h2{border-bottom: 0px; font-size: 16px}
+    .single_interview .testo_episodio{padding-top: 0px !important}
+    .single_interview .testo_episodio h2.title{font-size: 16px; line-height: 18px; margin-top: 5px;}
+    .single_interview .testo_episodio p.description{font-size: 15px; line-height: 17px; margin-top: 3px;}
+    .webradio_page .piu_ascoltate div{min-height: 170px;}
+    .webradio_page .intervista_singola{min-height: 380px;}
+
+    .webradio_page .second-title.calltoaction_radio {font-size: 20px; padding-top: 10px}
+    .webradio_page .second-title.calltoaction_radio h2{font-size: 35px}
+    .webradio_page .second-title.calltoaction_radio a{font-size: 20px}
+    .calltoaction_footer_company .box_function_adv table td h5 {font-size: 13px;}
+
+
+    .financial-educational-awards-company .testoawards{margin-left: 0px }
+    .financial-educational-awards-company p:first-child{padding-top: 5px !important}
+    .financial-educational-awards-company p{font-size: 19px; line-height: 23px;}
+    .financial-educational-awards-company p.awards{font-size: 25px;}
+} 
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .financial-educational-awards-company .testoawards{margin-left: 57px }
+    .financial-educational-awards-company p:first-child{padding-top: 0px !important}
+    .financial-educational-awards-company p.awards {font-size: 27px; line-height: 27px; }
+    .scheda_consulente .scheda_consulente_generic_info {min-height: 70px;}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .scheda_consulente .scheda_consulente_generic_info {min-height: 85px;}
+    .titoli_top_page .visual_txt{font-size: 18px; margin: 30px; line-height: 24px;}
+    .chart_item_box.chart_item_box_five .single_category h4{font-size: 17px; line-height: 20px}
+}
+
+.scheda_profilo_societa{background: #fafafa; border:1px solid #e3e3e3; box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1); border-radius: 24px; padding-bottom: 5px; margin-bottom: 10px;}
+.scheda_profilo_societa img{border-radius: 24px 24px 0px 0px; width: 100%}
+.scheda_profilo_societa .textbox{margin-left: 10px; font-family: 'Open Sans'; color: #375D81; font-size: 13px; line-height: 20px; margin-right: 10px; margin-top: 20px; margin-bottom: 20px; display: block}
+.scheda_profilo_societa .textbox p{font-size: 14px; line-height: 23px; margin-bottom: 10px; min-height: 70px;}
+.scheda_profilo_societa .longtextbox p{min-height: 160px;}
+.scheda_profilo_societa .textbox .call_to_action{color: #375D81; margin-top: 0px; display: block; font-family: 'Open Sans'; letter-spacing: 0px; text-transform: none; font-weight: 600; font-size: 15px; text-decoration: none;}
+.scheda_profilo_societa img.awards{ width: 45px; float: left; margin-right: 5px;}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .scheda_profilo_societa .textbox p{min-height: 70px;}
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation: landscape) {
+    .scheda_profilo_societa .textbox p{font-size: 13px; line-height: 23px; margin-bottom: 10px; min-height: 92px;}
+}
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px){
+    .scheda_profilo_societa .textbox{margin-top: 10px;}
+    .scheda_profilo_societa .textbox p{font-size: 12px; line-height: 17px;}
+    .scheda_profilo_societa .longtextbox p{min-height: 130px;}
+}
