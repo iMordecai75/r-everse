@@ -240,21 +240,28 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                         <p class="search_box mb10 mt10">Scopri come si classificano le azioni di tuo interesse</p>
 
                     </div>
-                    <div class="col-md-3 col-md-offset-4 col-sm-4 col-sm-offset-3 ol-xs-6 col-xs-offset-1 text-center mb10 mt10">
+                    <div class="col-md-3 col-md-offset-4 col-sm-4 col-sm-offset-3 col-xs-6 col-xs-offset-1 text-center mb10 mt10">
                         <div class="input_shadow">
                             <input type="text" id="isin_search" placeholder="Inserisci il nome o l'isin" name="ricerca">
                         </div>
                     </div>    
                     <div class="col-md-2 col-sm-2 col-xs-4 btn_cerca_container text-center mt10">
-                        <spn class="btn_isin_cerca">CERCA</spn>
+                        <spn class="btn_isin_cerca" id="btn_isin_cerca">CERCA</spn>
                     </div>  
                     <div class="col-md-12 text-center">
                         <p id="error_isin">
                             <!-- DISPLAY ERROR -->
                         </p>
-                    </div>              
+                    </div>
+                    <?php if(isset($_GET['isin']) && !empty($_GET['isin'])): ?>
+                    <div class="col-md-12 col-sm-12 col-xs-12 btn_cerca_container text-center mt10">
+                        <a href="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>" class="btn_isin_cerca back_to_charts">
+                            TORNA ALLA CLASSIFICA GENERALE
+                        </a>
+                    </div>
+                    <?php endif; ?>            
                 </div>
-                <div class="row mt20">
+                <div class="row mt20" id="anchor">
                     <div class="col-md-12">
                         <p class="text-right">
                             *classifica aggiornata al 24/11/2020, i rendimenti sono espressi in euro, i valori di 3Y e 5Y sono annualizzati
@@ -280,7 +287,7 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                                         <td class="text-center">#</td>
                                         <td class="text-left">Nome del fondo</td>
                                         <td class="label_add_portfolio text-center">
-                                            Aggiungi<br>al portafoglio
+                                            Aggiungi al portafoglio
                                         </td>
                                         <td class="rendimenti_txt">
                                             <?php if($order == '1-mese'): ?>
@@ -296,30 +303,30 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                                             1Y
                                             <?php else: ?>
                                             <a href="index.php?ordina=1-anno">
-                                                1M <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                                1Y <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
                                             </a>           
                                             <?php endif; ?>                                 
                                         </td>
                                         <td class="rendimenti_txt">
                                             <?php if($order == '3-anni'): ?>
-                                            3Y <sup>*</sup>
+                                            3Y<sup>*</sup>
                                             <?php else: ?>
                                             <a href="index.php?ordina=3-anni">
-                                                3Y <sup>*</sup><img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                                3Y<sup>*</sup> <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
                                             </a>                                            
                                             <?php endif; ?>
                                         </td>
                                         <td class="rendimenti_txt">
                                             <?php if($order == '5-anni'): ?>
-                                            5Y <sup>*</sup>
+                                            5Y<sup>*</sup>
                                             <?php else: ?>
                                             <a href="index.php?ordina=5-anni">
-                                                5Y <sup>*</sup><img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                                5Y<sup>*</sup> <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
                                             </a>                                            
                                             <?php endif; ?>
                                         </td>
                                         <td class="link_scheda text-center">
-                                            Scheda prodotto
+                                            Scheda Prodotto
                                         </td>
                                     </tr>
                                 </thead>
@@ -388,10 +395,7 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                                 Le classifiche
                             </b>
                             <!-- sempre visibile -->
-                            <span class="display_before" id="display_bf">
-                                Le classifiche che mettiamo a disposizione vengono redatte seguendo il valore delle performance di rendimento delle azioni italiane quotate sul FTSE MIB e sugli altri indici borsistici italiani di riferimento.
-                            </span>
-                            <span id="display_dot">...</span>
+                            <span class="display_before" id="display_bf">Le classifiche che mettiamo a disposizione vengono redatte seguendo il valore delle performance di rendimento delle azioni italiane quotate sul FTSE MIB e sugli altri indici borsistici italiani di riferimento.</span><span id="display_dot">..</span>
                             <span id="display_more">
                                 <br>
                                 Le classifiche sono suddivise sulla base delle migliori performance di ciascun titolo a 1 mese, 1 anno, 3 anni e 5 anni.<br><br>                        

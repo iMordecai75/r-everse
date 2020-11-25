@@ -16,28 +16,31 @@ class paginator {
         $pages = ceil($this->total/$this->limit);
         $page = $this->page;
         $html = array();
-        $html[] = '<ul>';
 
-        for($x = 1; $x<=$pages; $x++) {
-            if($page == $x) {
-                $html[] = '<li class="active">' . $x . '</li>';
-            } else {
-                if($x == 1) {
-                    $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
-                } else if ($x == $pages) {
-                    $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
-                } else if($x > $page && $x < ($page + 3)){
-                    $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
-                } else if($x == ($page-1)){
-                    $html[] = '<li><a href="' . $url . 'pagina=' . $x . '"><<</a></li>';
-                } else if($x == ($page + 3)) {
-                    $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">>></a></li>';
-                }
-            }            
+        if($pages > 1) {
+            $html[] = '<ul>';
+
+            for($x = 1; $x<=$pages; $x++) {
+                if($page == $x) {
+                    $html[] = '<li class="active">' . $x . '</li>';
+                } else {
+                    if($x == 1) {
+                        $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
+                    } else if ($x == $pages) {
+                        $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
+                    } else if($x > $page && $x < ($page + 3)){
+                        $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">' . $x . '</a></li>';
+                    } else if($x == ($page-1)){
+                        $html[] = '<li><a href="' . $url . 'pagina=' . $x . '"><<</a></li>';
+                    } else if($x == ($page + 3)) {
+                        $html[] = '<li><a href="' . $url . 'pagina=' . $x . '">>></a></li>';
+                    }
+                }            
+            }
+            $html[] = '</ul>';
         }
-        $html[] = '</ul>';
 
-        return implode(' ', $html);
+        return implode('', $html);
     }
 
     private function parseUrl() {

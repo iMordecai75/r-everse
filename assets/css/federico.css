@@ -21,13 +21,16 @@
     padding-bottom: 12px;
     padding-top: 5px; }
     .pagine_fondi .background_pattern_result h1 {
-      font-family: 'Open Sans';
-      font-size: 16px;
-      line-height: 23px;
+      color: white;
+      font-size: 15px;
       font-weight: 600;
-      margin-top: 0px;
+      line-height: 20px;
       margin-bottom: 0px;
-      color: white; }
+      margin-top: 0px; }
+      @media screen and (min-width: 768px) {
+        .pagine_fondi .background_pattern_result h1 {
+          font-size: 16px;
+          line-height: 23px; } }
     .pagine_fondi .background_pattern_result ul.breadcrumb-list.bread-white li a {
       color: white; }
     .pagine_fondi .background_pattern_result .breadcrumb-list li a {
@@ -35,9 +38,14 @@
       font-size: 11px; }
   .pagine_fondi p.search_box {
     color: #375D81;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
+    line-height: 14px;
     text-align: center; }
+    @media screen and (min-width: 768px) {
+      .pagine_fondi p.search_box {
+        font-size: 20px;
+        line-height: 22px; } }
   .pagine_fondi .input_shadow {
     border-radius: 24px;
     border: 1px solid transparent;
@@ -47,6 +55,7 @@
     border: 0;
     border-radius: 24px;
     display: block;
+    font-family: 'Open Sans';
     font-size: 13px;
     font-weight: 400;
     padding: 5px 10px;
@@ -63,6 +72,11 @@
     max-width: 100px;
     padding: 5px 13px;
     width: 100%; }
+    .pagine_fondi .btn_isin_cerca.back_to_charts {
+      font-size: 10px;
+      margin: 0 auto;
+      max-width: 200px;
+      padding: 3px; }
   .pagine_fondi b.note_title {
     color: #375D81;
     font-size: 18px;
@@ -101,7 +115,7 @@
         width: 140px; }
       .pagine_fondi .table_fonds_mc thead tr td .sortable_img {
         max-width: 12px;
-        vertical-align: -2; }
+        vertical-align: -2px; }
     .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td {
       border-bottom: 1px solid #f1f1f1;
       font-size: 12px;
@@ -138,6 +152,8 @@
           width: 20px; }
           .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span.to_add {
             background-image: url("https://www.moneycontroller.it/calcolatore/img/icona_add_.png"); }
+          .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span.to_remove {
+            background-image: url("https://www.moneycontroller.it/calcolatore/img/icona_canc_green.png"); }
       .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.rendimento {
         width: 90px; }
         .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td.rendimento span.posinchart {

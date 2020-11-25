@@ -38,13 +38,17 @@ $bianco: white;
         padding-top: 5px;
 
         h1 {
-            font-family: 'Open Sans';
-            font-size: 16px;
-            line-height: 23px;
-            font-weight: 600;
-            margin-top: 0px;
-            margin-bottom: 0px;
             color: $bianco;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+            @media screen and (min-width: 768px) {
+                font-size: 16px;
+                line-height: 23px;
+            }
         }
 
         ul.breadcrumb-list.bread-white {
@@ -67,9 +71,15 @@ $bianco: white;
 
     p.search_box {
         color: $blu;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 600;
-        text-align: center;
+        line-height: 14px;
+        text-align: center;        
+
+        @media screen and (min-width: 768px) {
+            font-size: 20px;
+            line-height: 22px;
+        }
     }
 
     .input_shadow {
@@ -83,6 +93,7 @@ $bianco: white;
         border: 0;
         border-radius: 24px;
         display: block;
+        font-family: 'Open Sans';
         font-size: 13px;
         font-weight: 400;
         padding: 5px 10px;
@@ -101,6 +112,13 @@ $bianco: white;
         max-width: 100px;
         padding: 5px 13px;
         width: 100%;
+
+        &.back_to_charts {
+            font-size: 10px;
+            margin: 0 auto;
+            max-width: 200px;
+            padding: 3px;
+        }
     }
 
     b.note_title {
@@ -163,7 +181,7 @@ $bianco: white;
 
                     .sortable_img {
                         max-width: 12px;
-                        vertical-align: -2;
+                        vertical-align: -2px;
                     }
                 }
             }
@@ -224,6 +242,10 @@ $bianco: white;
                                 &.to_add {
                                     background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_add_.png');
                                 }
+
+                                &.to_remove {
+                                    background-image: url('https://www.moneycontroller.it/calcolatore/img/icona_canc_green.png');
+                                }
                             }
                         }
 
@@ -264,10 +286,11 @@ $bianco: white;
     .paginated {
         ul {
             float: right;
+
             li {
                 border: 1px solid #e3e3e3;
                 border-radius: 20px;
-                display: inline-block;                
+                display: inline-block;
                 font-size: 12px;
                 font-weight: 600;
                 line-height: 16px;
