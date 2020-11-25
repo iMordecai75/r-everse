@@ -1,3 +1,6 @@
+<?php
+$order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
+?>
 <!DOCTYPE html>
 <html lang="it">
     <head>
@@ -280,16 +283,40 @@
                                             Aggiungi<br>al portafoglio
                                         </td>
                                         <td class="rendimenti_txt">
+                                            <?php if($order == '1-mese'): ?>
                                             1M
+                                            <?php else: ?>
+                                            <a href="index.php?ordina=1-mese">
+                                                1M <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                            </a>  
+                                            <?php endif; ?>                                          
                                         </td>
                                         <td class="rendimenti_txt">
+                                            <?php if($order == '1-anno'): ?>
                                             1Y
+                                            <?php else: ?>
+                                            <a href="index.php?ordina=1-anno">
+                                                1M <img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                            </a>           
+                                            <?php endif; ?>                                 
                                         </td>
                                         <td class="rendimenti_txt">
-                                            3Y
+                                            <?php if($order == '3-anni'): ?>
+                                            3Y <sup>*</sup>
+                                            <?php else: ?>
+                                            <a href="index.php?ordina=3-anni">
+                                                3Y <sup>*</sup><img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                            </a>                                            
+                                            <?php endif; ?>
                                         </td>
                                         <td class="rendimenti_txt">
-                                            5Y
+                                            <?php if($order == '5-anni'): ?>
+                                            5Y <sup>*</sup>
+                                            <?php else: ?>
+                                            <a href="index.php?ordina=5-anni">
+                                                5Y <sup>*</sup><img class="sortable_img" src="https://www.moneycontroller.de/calcolatore/img/sort-generic.png">
+                                            </a>                                            
+                                            <?php endif; ?>
                                         </td>
                                         <td class="link_scheda text-center">
                                             Scheda prodotto
@@ -311,25 +338,25 @@
                                         <td class="btn_add_portfolio text-center">
                                             <span class="to_add" id="btn_<?php echo str_replace('.','',$item['fida_code']); ?>"></span>
                                         </td>
-                                        <td class="text-center rendimento order">
+                                        <td class="text-center rendimento <?php echo ($order == '1-mese')?'order':'';?>">
                                             <?php echo $item['mese']; ?>%
                                             <span class="posinchart">
                                                 (<?php echo $item['classifica_1_mese']; ?>°)
                                             </span>
                                         </td>
-                                        <td class="text-center rendimento">
+                                        <td class="text-center rendimento <?php echo ($order == '1-anno')?'order':'';?>">
                                             <?php echo $item['anno']; ?>%
                                             <span class="posinchart">
                                                 (<?php echo $item['classifica_1_anno']; ?>°)
                                             </span>
                                         </td>
-                                        <td class="text-center rendimento">
+                                        <td class="text-center rendimento <?php echo ($order == '3-anni')?'order':'';?>">
                                             <?php echo $item['3anni']; ?>%
                                             <span class="posinchart">
-                                                (<?php echo $item['classifica_3_ann1']; ?>°)
+                                                (<?php echo $item['classifica_3_anni']; ?>°)
                                             </span>
                                         </td>
-                                        <td class="text-center rendimento">
+                                        <td class="text-center rendimento <?php echo ($order == '5-anni')?'order':'';?>">
                                             <?php echo $item['5anni']; ?>%
                                             <span class="posinchart">
                                                 (<?php echo $item['classifica_5_anni']; ?>°)
@@ -345,14 +372,13 @@
                                 </tbody>
                             </table>
                         </div>
-                        <pre>
-                            <?php print_r($items); ?>
-                        </pre>
                     </div>
                 </div>
                 <!-- PAGINAZIONE -->
                 <div class="row mt20">
-                    <div class="col-md-12 paginated"></div>
+                    <div class="col-md-12 paginated">
+                        <?php echo $paginator->render(); ?>
+                    </div>
                 </div>
 
                 <div class="row">

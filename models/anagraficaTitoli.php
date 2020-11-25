@@ -7,8 +7,33 @@ class AnagraficaTitoliModel {
 
     public function getItems() {
         try {
+            $ordina = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
+            $pagina = isset($_GET['pagina'])?$_GET['pagina']:1;
+            $limit = 30;
+            $start = $limit * ($pagina - 1);
+
             $dbo = \fm\classes\DBO::getInstance();
-            $sql = "SELECT * FROM anagrafica_titoli ORDER BY mese DESC LIMIT 0, 30";
+            $sql = "SELECT fida_code, classifica_1_mese, nome_fondo, isin, mese, classifica_1_mese, anno,";
+            $sql .= " classifica_1_anno, 3anni, classifica_3_anni, 5anni, classifica_5_anni, alias_nome_fondo_url";
+            $sql .= " FROM anagrafica_titoli";
+
+            switch($ordina) {
+                case '1-mese':
+                    $sql .= ' ORDER BY classifica_1_mese ASC';
+                break;
+                case '1-anno':
+                    $sql .= ' ORDER BY classifica_1_anno ASC';
+                break;
+                case '3-anni':
+                    $sql .= ' ORDER BY classifica_3_anni ASC';
+                break;
+                case '5-anni':
+                    $sql .= ' ORDER BY classifica_5_anni ASC';
+                break;
+            }
+
+            $sql .= ' LIMIT ' . $start . ', ' . $limit;
+
             $stmt = $dbo->prepare($sql);
             $stmt->execute();
 
@@ -19,6 +44,22 @@ class AnagraficaTitoliModel {
         } catch (Exception $e) {
             throw $e;
             return array();
+        }
+    }
+
+    public function getTotal() {
+        try {
+            $dbo = \fm\classes\DBO::getInstance();
+            $sql = "SELECT count(*) AS total FROM anagrafica_titoli";
+            $stmt = $dbo->prepare($sql);
+            $stmt->execute();
+
+            $total = $stmt->fetch();
+
+            return $total['total'];
+            
+        } catch (\Throwable $th) {
+            throw $th;            
         }
     }
 

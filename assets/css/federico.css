@@ -99,6 +99,9 @@
         width: 80px; }
       .pagine_fondi .table_fonds_mc thead tr td.link_scheda {
         width: 140px; }
+      .pagine_fondi .table_fonds_mc thead tr td .sortable_img {
+        max-width: 12px;
+        vertical-align: -2; }
     .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo td {
       border-bottom: 1px solid #f1f1f1;
       font-size: 12px;
@@ -149,5 +152,25 @@
       background-color: #f1f1f1; }
     .pagine_fondi .table_fonds_mc tbody tr.singolo_fondo:nth-child(2n) {
       background-color: #c7c3c2; }
+  .pagine_fondi .paginated ul {
+    float: right; }
+    .pagine_fondi .paginated ul li {
+      border: 1px solid #e3e3e3;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      margin: 0 2px 5px 5px;
+      text-align: center;
+      width: 29px; }
+      .pagine_fondi .paginated ul li.active {
+        background-color: #375D81;
+        color: white;
+        line-height: 22px; }
+      .pagine_fondi .paginated ul li a {
+        color: #375D81;
+        line-height: 22px;
+        width: auto; }
 
 /*# sourceMappingURL=federico.css.map */

@@ -160,6 +160,11 @@ $bianco: white;
                     &.link_scheda {
                         width: 140px;
                     }
+
+                    .sortable_img {
+                        max-width: 12px;
+                        vertical-align: -2;
+                    }
                 }
             }
         }
@@ -254,5 +259,34 @@ $bianco: white;
             }
         }
 
+    }
+
+    .paginated {
+        ul {
+            float: right;
+            li {
+                border: 1px solid #e3e3e3;
+                border-radius: 20px;
+                display: inline-block;                
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 16px;
+                margin: 0 2px 5px 5px;
+                text-align: center;
+                width: 29px;
+
+                &.active {
+                    background-color: $blu;
+                    color: $bianco;
+                    line-height: 22px;
+                }
+
+                a {
+                    color: $blu;
+                    line-height: 22px;
+                    width: auto;
+                }
+            }
+        }
     }
 }

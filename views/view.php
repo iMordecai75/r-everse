@@ -11,9 +11,12 @@ class View {
         try {
             $error = array();
             $model = new AnagraficaTitoliModel();
-            $items = $model->getItems();            
+            $items = $model->getItems();
+            $total = $model->getTotal();
+            $page = isset($_GET['pagina'])?$_GET['pagina']:1;
+            $paginator = new paginator($total, 30, $page);
         } catch (\Throwable $th) {
-            //throw $th;
+            throw $th;
         }
         try {
             ob_start();
