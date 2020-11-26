@@ -1,0 +1,202 @@
+.pagine_fondi {
+  font-family: 'Open Sans'; }
+  .pagine_fondi h1 {
+    text-transform: none;
+    letter-spacing: 0; }
+  .pagine_fondi p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #696969; }
+  .pagine_fondi .text-bold {
+    font-weight: 600; }
+  .pagine_fondi #breadcrumb.background_pattern_result {
+    background: url("../img/background-visual-header.jpg") center center/cover;
+    padding-bottom: 12px;
+    padding-top: 5px; }
+  .pagine_fondi #breadcrumb h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+    @media screen and (min-width: 768px) {
+      .pagine_fondi #breadcrumb h1 {
+        font-size: 16px;
+        line-height: 23px; } }
+  .pagine_fondi #breadcrumb .breadcrumb-list li a {
+    font-size: 11px; }
+  .pagine_fondi #breadcrumb .bread-white {
+    color: white; }
+  .pagine_fondi #form .search_box {
+    color: #375D81;
+    font-size: 20px; }
+  .pagine_fondi #form .input_shadow {
+    border-radius: 24px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25); }
+  .pagine_fondi #form .btn_isin_cerca {
+    color: white;
+    cursor: pointer;
+    background-color: #909399;
+    border-radius: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    max-width: 100px;
+    padding: 5px 13px;
+    width: 100%; }
+  .pagine_fondi #form .back_to_charts {
+    font-size: 10px;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 3px; }
+  .pagine_fondi #form input[type="text"] {
+    border: 0;
+    border-radius: 24px;
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%; }
+  .pagine_fondi #table .table_fonds_mc {
+    width: 100%; }
+    .pagine_fondi #table .table_fonds_mc .nobg {
+      background-color: white; }
+    .pagine_fondi #table .table_fonds_mc .text_blu {
+      color: #375D81; }
+    .pagine_fondi #table .table_fonds_mc thead tr td {
+      background-color: #3071a9;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 13px;
+      padding: 5px;
+      text-transform: none;
+      vertical-align: middle; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.rendimenti_txt {
+        text-align: center;
+        width: 80px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.label_add_portfolio {
+        width: 40px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.link_scheda {
+        width: 140px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.ordering span {
+        display: inline-block;
+        position: relative; }
+        .pagine_fondi #table .table_fonds_mc thead tr td.ordering span::after {
+          background: url("../img/sort-generic.png") top left;
+          background-size: cover;
+          content: '';
+          display: block;
+          height: 12px;
+          left: 3px;
+          position: absolute;
+          top: -9px;
+          width: 12px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.star {
+        position: relative; }
+        .pagine_fondi #table .table_fonds_mc thead tr td.star::after {
+          content: '*';
+          display: block;
+          height: 12px;
+          left: 48px;
+          position: absolute;
+          top: 7px;
+          width: 12px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td .sortable_img {
+        max-width: 12px;
+        vertical-align: -2px; }
+    .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td {
+      border-bottom: 1px solid #f1f1f1;
+      font-size: 12px;
+      height: 40px;
+      line-height: 13px;
+      padding: 5px;
+      vertical-align: middle; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td span {
+        display: block;
+        font-size: 10px; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td a {
+        color: #375D81;
+        font-weight: 600; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.number_ref {
+        width: 38px;
+        color: #375D81; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.nome_fondo {
+        min-width: 255px; }
+        .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.nome_fondo span.categoria {
+          color: #183152;
+          font-style: italic; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio {
+        padding-left: 0px;
+        padding-right: 0px;
+        vertical-align: middle;
+        width: 40px; }
+        .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          cursor: pointer;
+          height: 20px;
+          margin: 0 auto;
+          width: 20px; }
+          .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span.to_add {
+            background-image: url("https://www.moneycontroller.it/calcolatore/img/icona_add_.png"); }
+          .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.btn_add_portfolio span.to_remove {
+            background-image: url("https://www.moneycontroller.it/calcolatore/img/icona_canc_green.png"); }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.rendimento {
+        width: 90px; }
+        .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.rendimento span.posinchart {
+          color: #375D81;
+          font-weight: 600;
+          margin-top: 2px; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.order {
+        background-color: #D2D7DB; }
+      .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo td.scheda {
+        min-width: 100px; }
+    .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo:nth-child(2n+1) {
+      background-color: #f1f1f1; }
+    .pagine_fondi #table .table_fonds_mc tbody tr.singolo_fondo:nth-child(2n) {
+      background-color: #c7c3c2; }
+  .pagine_fondi .paginated ul {
+    float: right; }
+    .pagine_fondi .paginated ul li {
+      border: 1px solid #e3e3e3;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      margin: 0 2px 5px 5px;
+      text-align: center;
+      width: 29px; }
+      .pagine_fondi .paginated ul li.active {
+        background-color: #375D81;
+        color: white;
+        line-height: 22px; }
+      .pagine_fondi .paginated ul li a {
+        color: #375D81;
+        line-height: 22px;
+        width: auto; }
+  .pagine_fondi b.note_title {
+    color: #375D81;
+    font-size: 18px;
+    font-weight: 600;
+    display: block; }
+  .pagine_fondi .display_before {
+    color: #375D81;
+    font-size: 14px; }
+  .pagine_fondi .analysis_logo img {
+    width: 90px;
+    vertical-align: -6px; }
+  .pagine_fondi #display_switch {
+    color: #375D81;
+    cursor: pointer;
+    font-weight: 600; }
+
+/*# sourceMappingURL=federico1.css.map */
