@@ -1,7 +1,3 @@
-<?php
-$order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
-?>
-
 <!DOCTYPE html>
 <html lang="it">
     <head>
@@ -250,6 +246,11 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 btn_cerca_container text-center mt10">
+                        <span class="btn_isin_cerca back_to_charts">
+                            TORNA ALLA CLASSIFICA GENERALE
+                        </span>
+                    </div>
                 </div>
                 <div class="row mt20" id="anchor">
                     <div class="col-md-12">
@@ -279,46 +280,22 @@ $order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
                                         <td class="label_add_portfolio text-center">
                                             Aggiungi al portafoglio
                                         </td>
-                                        <?php if($order == '1-mese'): ?>
-                                        <td class="rendimenti_txt">                                            
-                                            1M
-                                        </td>
-                                        <?php else: ?>
                                         <td class="rendimenti_txt ordering" data-ord="1-mese">
                                             1M
                                             <span></span>
                                         </td>
-                                        <?php endif; ?>
-                                        <?php if($order == '1-anno'): ?>
-                                        <td class="rendimenti_txt">                                            
-                                            1Y
-                                        </td>
-                                        <?php else: ?>
                                         <td class="rendimenti_txt ordering" data-ord="1-anno">
                                             1Y
                                             <span></span>
                                         </td>
-                                        <?php endif; ?>                                 
-                                        <?php if($order == '3-anni'): ?>
-                                        <td class="rendimenti_txt star">                                            
-                                            3Y
-                                        </td>
-                                        <?php else: ?>
                                         <td class="rendimenti_txt star ordering" data-ord="3-anni">
                                             3Y
                                             <span></span>
                                         </td>
-                                        <?php endif; ?>                                 
-                                        <?php if($order == '5-anni'): ?>
-                                        <td class="rendimenti_txt star">
-                                            5Y
-                                        </td>
-                                        <?php else: ?>
                                         <td class="rendimenti_txt star ordering" data-ord="5-anni">
                                             5Y
                                             <span></span>
                                         </td>
-                                        <?php endif; ?>
                                         <td class="link_scheda text-center">
                                             Scheda Prodotto
                                         </td>

@@ -105,8 +105,9 @@ $bianco: white;
             width: 100%;
         }
 
-
-
+        .btn_cerca_container {
+            display: none;
+        }
     }
 
     #table {
@@ -147,6 +148,7 @@ $bianco: white;
                         }
 
                         &.ordering {
+                            cursor: pointer;
 
                             span {
                                 display: inline-block;
@@ -307,8 +309,9 @@ $bianco: white;
                     line-height: 22px;
                 }
 
-                a {
+                span {
                     color: $blu;
+                    cursor: pointer;
                     line-height: 22px;
                     width: auto;
                 }

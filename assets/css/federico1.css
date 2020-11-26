@@ -63,6 +63,8 @@
     padding: 5px 10px;
     text-align: center;
     width: 100%; }
+  .pagine_fondi #form .btn_cerca_container {
+    display: none; }
   .pagine_fondi #table .table_fonds_mc {
     width: 100%; }
     .pagine_fondi #table .table_fonds_mc .nobg {
@@ -85,19 +87,21 @@
         width: 40px; }
       .pagine_fondi #table .table_fonds_mc thead tr td.link_scheda {
         width: 140px; }
-      .pagine_fondi #table .table_fonds_mc thead tr td.ordering span {
-        display: inline-block;
-        position: relative; }
-        .pagine_fondi #table .table_fonds_mc thead tr td.ordering span::after {
-          background: url("../img/sort-generic.png") top left;
-          background-size: cover;
-          content: '';
-          display: block;
-          height: 12px;
-          left: 3px;
-          position: absolute;
-          top: -9px;
-          width: 12px; }
+      .pagine_fondi #table .table_fonds_mc thead tr td.ordering {
+        cursor: pointer; }
+        .pagine_fondi #table .table_fonds_mc thead tr td.ordering span {
+          display: inline-block;
+          position: relative; }
+          .pagine_fondi #table .table_fonds_mc thead tr td.ordering span::after {
+            background: url("../img/sort-generic.png") top left;
+            background-size: cover;
+            content: '';
+            display: block;
+            height: 12px;
+            left: 3px;
+            position: absolute;
+            top: -9px;
+            width: 12px; }
       .pagine_fondi #table .table_fonds_mc thead tr td.star {
         position: relative; }
         .pagine_fondi #table .table_fonds_mc thead tr td.star::after {
@@ -179,8 +183,9 @@
         background-color: #375D81;
         color: white;
         line-height: 22px; }
-      .pagine_fondi .paginated ul li a {
+      .pagine_fondi .paginated ul li span {
         color: #375D81;
+        cursor: pointer;
         line-height: 22px;
         width: auto; }
   .pagine_fondi b.note_title {

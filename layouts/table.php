@@ -1,3 +1,7 @@
+<?php
+$order = isset($_GET['ordina'])?$_GET['ordina']:'1-mese';
+?>
+                                    
                                     <?php foreach ($items as $item): ?>
                                     <tr id="fund_<?php echo str_replace('.','',$item['fida_code']); ?>" class="singolo_fondo">
                                         <td class="text-center number_ref">

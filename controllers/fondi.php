@@ -8,7 +8,7 @@ class fondi {
             $items = $model->getItems();
             $total = $model->getTotal();
             $page = isset($_GET['pagina'])?$_GET['pagina']:1;
-            $paginator = new paginator($total, 30, $page);            
+            $paginator = new paginator($total, 30, $page, 'ajax');            
 
             ob_start();
 
@@ -27,7 +27,7 @@ class fondi {
             );
 
         } catch (\Throwable $th) {
-            //throw $th;
+            throw $th;
         }
     }
 }
