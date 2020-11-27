@@ -233,7 +233,7 @@
                             Scopri come si classificano le azioni di tuo interesse
                         </p>                        
                     </div>
-                    <div class="col-md-5 col-md-offset-4 col-xs-offset-1 col-xs-10">
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-5">
                         <div class="row">
                             <div class="col-md-7 col-xs-8 mb10 mt10">
                                 <div class="input_shadow">
@@ -268,7 +268,7 @@
                                         <td class="nobg"></td>
                                         <td class="nobg"></td>
                                         <td class="nobg"></td>
-                                        <td class="nobg text_blu" colspan="4">
+                                        <td class="nobg text_blu text-center" colspan="4">
                                             Seleziona il periodo per ordinare i titoli per rendimento
                                         </td>
                                         <td class="nobg"></td>
