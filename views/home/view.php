@@ -1,4 +1,5 @@
 <?php 
+namespace fm\views;
 
 class View {
 
@@ -10,11 +11,11 @@ class View {
 
         try {
             $error = array();
-            $model = new AnagraficaTitoliModel();
+            $model = new \fm\models\AnagraficaTitoliModel();
             $items = $model->getItems();
             $total = $model->getTotal();
             $page = isset($_GET['pagina'])?$_GET['pagina']:1;
-            $paginator = new paginator($total, 30, $page);
+            $paginator = new \fm\classes\paginator($total, 30, $page);
         } catch (\Throwable $th) {
             throw $th;
         }

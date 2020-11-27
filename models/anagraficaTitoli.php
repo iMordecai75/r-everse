@@ -1,4 +1,6 @@
 <?php 
+namespace fm\models;
+
 use fm\classes;
 
 class AnagraficaTitoliModel {
@@ -76,52 +78,22 @@ class AnagraficaTitoliModel {
         }
     }
 
+    //TODO
     public function save($data) {
         try {
-            if($this->check($data) !== true) {
-                
-                return false;
-            }
-            $entry = new Entry();            
-            if($entry->bind($data) !== true) {
-                $this->error[] = 'Errore nel formato dei dati';
-                return false;
-            }
-
-            if(!$entry->store()) {
-                $this->error[] = 'Errore nel salvataggio';
-                return false;
-            }
-
-            return $entry->key;
-            
+            return true;            
         } catch (Exception $e) {
             throw $e;
         }
 
     }
 
+    //TODO
     public function check($data) {
-        $error = array();
-        if(!is_int($data['id'])) {
-            $error[] = "L'id deve essere un numero intero";
-        }
-        if(!is_string($data['nome'])) {
-            $error[] = "Il nome deve essere una stringa";
-        }
-        if(!is_string($data['cognome'])) {
-            $error[] = "Il cognome deve essere una stringa";
-        }
-        if(!empty($data['email']) && !filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-            $error[] = "L'email non ha il formato corretto";
-        }
-
-        if(count($error) == 0) {            
-            $this->path = $path;
+        try {
             return true;
-        } else {
-            $this->error = array_merge($this->error, $error);
-            return false;
+        } catch (\Throwable $th) {
+            throw $th;
         }
     }
 

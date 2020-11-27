@@ -1,4 +1,6 @@
 <?php 
+namespace fm\classes;
+
 
 class paginator {
     private $total;

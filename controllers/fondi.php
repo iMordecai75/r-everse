@@ -1,14 +1,16 @@
 <?php
+use fm\models;
 
 class fondi {
+
     public function items() {
         try {
-            $model = new AnagraficaTitoliModel();
+            $model = new fm\models\AnagraficaTitoliModel();
 
             $items = $model->getItems();
             $total = $model->getTotal();
             $page = isset($_GET['pagina'])?$_GET['pagina']:1;
-            $paginator = new paginator($total, 30, $page, 'ajax');            
+            $paginator = new fm\classes\paginator($total, 30, $page, 'ajax');            
 
             ob_start();
 

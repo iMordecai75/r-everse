@@ -7,10 +7,10 @@ require_once './classes/anagraficaTitoli.php';
 require_once './models/anagraficaTitoli.php';
 require_once './views/home/view.php';
 
-use fm\classes;
+use fm\views;
 
 try {
-    $view = new View();
+    $view = new \fm\views\View();
     $view->setError($error);
     $view->display();
 } catch (\Throwable $th) {
