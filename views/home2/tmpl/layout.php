@@ -219,8 +219,7 @@
                             </ul>
 
                         </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
                             <h1>Classifica delle Azioni Italiane con le migliori performance a 1 mese</h1>
                         </div>
                     </div>
@@ -234,14 +233,14 @@
                             Scopri come si classificano le azioni di tuo interesse
                         </p>                        
                     </div>
-                    <div class="col-md-5 col-md-offset-4">
-                        <div class="row-fluid">
-                            <div class="col-md-7 mb10 mt10">
+                    <div class="col-md-5 col-md-offset-4 col-xs-offset-1 col-xs-10">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-8 mb10 mt10">
                                 <div class="input_shadow">
                                     <input type="text" id="isin_search" placeholder="Inserisci il nome o l'isin" name="ricerca">
                                 </div>
                             </div>
-                            <div class="col-md-5 mb10 mt10 text-center">
+                            <div class="col-md-5 col-xs-4 mb10 mt10 text-center">
                                 <spn class="btn_isin_cerca" id="btn_isin_cerca">CERCA</spn>
                             </div>
                         </div>

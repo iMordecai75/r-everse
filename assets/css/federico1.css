@@ -31,7 +31,12 @@
     color: white; }
   .pagine_fondi #form .search_box {
     color: #375D81;
-    font-size: 20px; }
+    font-size: 14px;
+    line-height: 14px; }
+    @media screen and (min-width: 768px) {
+      .pagine_fondi #form .search_box {
+        font-size: 20px;
+        line-height: 22px; } }
   .pagine_fondi #form .input_shadow {
     border-radius: 24px;
     border: 1px solid transparent;

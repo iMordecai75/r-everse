@@ -173,5 +173,20 @@
         color: #375D81;
         line-height: 22px;
         width: auto; }
+  .pagine_fondi b.note_title {
+    color: #375D81;
+    font-size: 18px;
+    font-weight: 600;
+    display: block; }
+  .pagine_fondi .display_before {
+    color: #375D81;
+    font-size: 14px; }
+  .pagine_fondi .analysis_logo img {
+    width: 90px;
+    vertical-align: -6px; }
+  .pagine_fondi #display_switch {
+    color: #375D81;
+    cursor: pointer;
+    font-weight: 600; }
 
 /*# sourceMappingURL=federico.css.map */

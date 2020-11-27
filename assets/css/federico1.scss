@@ -63,7 +63,14 @@ $bianco: white;
     #form {
         .search_box {
             color: $blu;
-            font-size: 20px;
+            font-size: 14px;
+            line-height: 14px;
+
+            @media screen and (min-width: 768px) {
+                font-size: 20px;
+                line-height: 22px;
+            }
+
         }
 
         .input_shadow {
@@ -84,6 +91,7 @@ $bianco: white;
             max-width: 100px;
             padding: 5px 13px;
             width: 100%;
+
         }
 
         .back_to_charts {

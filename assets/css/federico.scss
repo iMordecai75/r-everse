@@ -74,7 +74,7 @@ $bianco: white;
         font-size: 14px;
         font-weight: 600;
         line-height: 14px;
-        text-align: center;        
+        text-align: center;
 
         @media screen and (min-width: 768px) {
             font-size: 20px;
@@ -289,4 +289,28 @@ $bianco: white;
             }
         }
     }
+
+    b.note_title {
+        color: $blu;
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+    }
+
+    .display_before {
+        color: $blu;
+        font-size: 14px;
+    }
+
+    .analysis_logo img {
+        width: 90px;
+        vertical-align: -6px;
+    }
+
+    #display_switch {
+        color: $blu;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
 }
